@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>HomSoft: Vailidações</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZHMS_FG_VALIDATEDFM</SOBJ_NAME>
+    <SOBJ_NAME>LZHMS_FG_VALIDATEDTP</SOBJ_NAME>
+    <SOBJ_NAME>LZHMS_FG_VALIDATEF01</SOBJ_NAME>
+    <SOBJ_NAME>LZHMS_FG_VALIDATETOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZHMS_FG_VALIDATE</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZHMS_FM_VALIDAR</FUNCNAME>
+     <SHORT_TEXT>Executar regras de validação para documento</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>VLDCD</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZHMS_DE_VLDCD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>CABDOC</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZHMS_TB_CABDOC</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>REGHIST</PARAMETER>
+       <DEFAULT>&apos;X&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>FLAG</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>VLDTY</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZHMS_DE_VLDTY</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>VLDCD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Código de Pacote de Validações</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CABDOC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>HomSoft: Cabeçalhos de Documentos Eletrônicos</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>REGHIST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Registrar Histórico</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>VLDTY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tipo de mensagem</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

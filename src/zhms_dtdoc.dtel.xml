@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZHMS_DTDOC</ROLLNAME>
+    <DDLANGUAGE>P</DDLANGUAGE>
+    <DOMNAME>DATUM</DOMNAME>
+    <HEADLEN>10</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Data do documento</DDTEXT>
+    <REPTEXT>Data doc.</REPTEXT>
+    <SCRTEXT_S>Data doc.</SCRTEXT_S>
+    <SCRTEXT_M>Data documento</SCRTEXT_M>
+    <SCRTEXT_L>Data documento</SCRTEXT_L>
+    <DTELMASTER>P</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Document date</DDTEXT>
+     <REPTEXT>Doc.date</REPTEXT>
+     <SCRTEXT_S>Doc.date</SCRTEXT_S>
+     <SCRTEXT_M>Document date</SCRTEXT_M>
+     <SCRTEXT_L>Document date</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Fecha do documento</DDTEXT>
+     <REPTEXT>Fecha doc.</REPTEXT>
+     <SCRTEXT_S>Fecha Doc.</SCRTEXT_S>
+     <SCRTEXT_M>Fecha Documento</SCRTEXT_M>
+     <SCRTEXT_L>Fecha Documento</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

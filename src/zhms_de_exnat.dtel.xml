@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZHMS_DE_EXNAT</ROLLNAME>
+    <DDLANGUAGE>P</DDLANGUAGE>
+    <DOMNAME>CHAR50</DOMNAME>
+    <HEADLEN>25</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>19</SCRLEN2>
+    <SCRLEN3>25</SCRLEN3>
+    <DDTEXT>Denominador Externo: Natureza do documento</DDTEXT>
+    <REPTEXT>Ex: Natureza do documento</REPTEXT>
+    <SCRTEXT_S>Ex: Naturz</SCRTEXT_S>
+    <SCRTEXT_M>Ex: Natureza do Doc</SCRTEXT_M>
+    <SCRTEXT_L>Ex: Natureza do documento</SCRTEXT_L>
+    <DTELMASTER>P</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

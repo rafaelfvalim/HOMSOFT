@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZHMS_DE_LOGGV</ROLLNAME>
+    <DDLANGUAGE>P</DDLANGUAGE>
+    <DOMNAME>SYCHAR50</DOMNAME>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Variável mensagens</DDTEXT>
+    <REPTEXT>Variável mensagens</REPTEXT>
+    <SCRTEXT_S>Var.mens.</SCRTEXT_S>
+    <SCRTEXT_M>Variável mensagens</SCRTEXT_M>
+    <SCRTEXT_L>Variável mensagens</SCRTEXT_L>
+    <APPLCLASS>SYST</APPLCLASS>
+    <DTELMASTER>D</DTELMASTER>
+    <DEFFDNAME>MESSAGE_VAR</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>D</LANGU>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>W</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>消息,消息变量</DDTEXT>
+     <REPTEXT>消息变量</REPTEXT>
+     <SCRTEXT_S>消息变量</SCRTEXT_S>
+     <SCRTEXT_M>消息变量</SCRTEXT_M>
+     <SCRTEXT_L>消息变量</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <REPTEXT>ตัวแปรข้อความ</REPTEXT>
+     <SCRTEXT_S>ตัวแปรข/ค</SCRTEXT_S>
+     <SCRTEXT_M>ตัวแปรข้อความ</SCRTEXT_M>
+     <SCRTEXT_L>ตัวแปรข้อความ</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <REPTEXT>메세지변수</REPTEXT>
+     <SCRTEXT_S>메세지변수</SCRTEXT_S>
+     <SCRTEXT_M>메세지변수</SCRTEXT_M>
+     <SCRTEXT_L>메세지변수</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <REPTEXT>Varijabla poruke</REPTEXT>
+     <SCRTEXT_M>Varijabla poruke</SCRTEXT_M>
+     <SCRTEXT_L>Varijabla poruke</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>הודעות, משתני הודעה</DDTEXT>
+     <REPTEXT>משתנה הודעה</REPTEXT>
+     <SCRTEXT_M>משתנה הודעה</SCRTEXT_M>
+     <SCRTEXT_L>משתנה הודעה</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Proměnná zprávy</DDTEXT>
+     <REPTEXT>Proměnná zprávy</REPTEXT>
+     <SCRTEXT_S>Proměn.zp.</SCRTEXT_S>
+     <SCRTEXT_M>Proměnná zprávy</SCRTEXT_M>
+     <SCRTEXT_L>Proměnná zprávy</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Nachrichtenvariable</DDTEXT>
+     <REPTEXT>Nachrichtenvariable</REPTEXT>
+     <SCRTEXT_S>Msg-Variab</SCRTEXT_S>
+     <SCRTEXT_M>Nachrichtenvariable</SCRTEXT_M>
+     <SCRTEXT_L>Nachrichtenvariable</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Message Variable</DDTEXT>
+     <REPTEXT>Message Variable</REPTEXT>
+     <SCRTEXT_S>Msg. Var.</SCRTEXT_S>
+     <SCRTEXT_M>Message Variable</SCRTEXT_M>
+     <SCRTEXT_L>Message Variable</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Variable de message</DDTEXT>
+     <REPTEXT>Variable de message</REPTEXT>
+     <SCRTEXT_S>Var. msg.</SCRTEXT_S>
+     <SCRTEXT_M>Variable de message</SCRTEXT_M>
+     <SCRTEXT_L>Variable de message</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Üzenetváltozó</DDTEXT>
+     <REPTEXT>Üzenetváltozó</REPTEXT>
+     <SCRTEXT_S>MsgVáltozó</SCRTEXT_S>
+     <SCRTEXT_M>Üzenetváltozó</SCRTEXT_M>
+     <SCRTEXT_L>Üzenetváltozó</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Variabile messaggio</DDTEXT>
+     <REPTEXT>Variabile messaggio</REPTEXT>
+     <SCRTEXT_S>Var. msg.</SCRTEXT_S>
+     <SCRTEXT_M>Variabile messaggio</SCRTEXT_M>
+     <SCRTEXT_L>Variabile messaggio</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>メッセージ変数</DDTEXT>
+     <REPTEXT>メッセージ変数</REPTEXT>
+     <SCRTEXT_S>Msg. 変数</SCRTEXT_S>
+     <SCRTEXT_M>メッセージ変数</SCRTEXT_M>
+     <SCRTEXT_L>メッセージ変数</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Zmienna komunikatu</DDTEXT>
+     <REPTEXT>Zmienna komunikatu</REPTEXT>
+     <SCRTEXT_S>Zmn. kom.</SCRTEXT_S>
+     <SCRTEXT_M>Zmienna komunikatu</SCRTEXT_M>
+     <SCRTEXT_L>Zmienna komunikatu</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>訊息，訊息變數</DDTEXT>
+     <REPTEXT>訊息變數</REPTEXT>
+     <SCRTEXT_S>訊息變數</SCRTEXT_S>
+     <SCRTEXT_M>訊息變數</SCRTEXT_M>
+     <SCRTEXT_L>訊息變數</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Meldingsvariabele</DDTEXT>
+     <REPTEXT>Meldingsvariabele</REPTEXT>
+     <SCRTEXT_S>Mld-variab</SCRTEXT_S>
+     <SCRTEXT_M>Meldingsvariabele</SCRTEXT_M>
+     <SCRTEXT_L>Meldingsvariabele</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Premenná správy</DDTEXT>
+     <REPTEXT>Premenná správy</REPTEXT>
+     <SCRTEXT_S>Prem.spr.</SCRTEXT_S>
+     <SCRTEXT_M>Premenná správy</SCRTEXT_M>
+     <SCRTEXT_L>Premenná správy</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Переменная сообщения</DDTEXT>
+     <REPTEXT>Переменная сообщения</REPTEXT>
+     <SCRTEXT_S>ПеремСообщ</SCRTEXT_S>
+     <SCRTEXT_M>Переменная сообщения</SCRTEXT_M>
+     <SCRTEXT_L>Переменная сообщения</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Variable de mensaje</DDTEXT>
+     <REPTEXT>Variable de mensaje</REPTEXT>
+     <SCRTEXT_S>Var.mje.</SCRTEXT_S>
+     <SCRTEXT_M>Variable de mensaje</SCRTEXT_M>
+     <SCRTEXT_L>Variable de mensaje</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <DDTEXT>Съобщения, променливи на съобщение</DDTEXT>
+     <REPTEXT>Променлива на съобщ.</REPTEXT>
+     <SCRTEXT_S>Пром.съоб.</SCRTEXT_S>
+     <SCRTEXT_M>Променлива на съобщ.</SCRTEXT_M>
+     <SCRTEXT_L>Променлива на съобщ.</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_LOGGV</OBJECT>
+      <LANGU>C</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <TXTLINES>00005</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_LOGGV</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>C</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Jedna z maximálně čtyř hodnot, které se mohou používat v proměnných ve</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>zprávě T100. Nahrazování proměnných se provádí v tom pořadí, v němž se</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>proměnné objevují v textu zprávy.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;DS:KENO.E72B953654EA4679E10000009B38F83A&gt;Dokumentace systémových polí</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ABAP&lt;/&gt;</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_LOGGV</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00002</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_LOGGV</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Feldinhalte, die für die Platzhalter in der Anweisung</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;AB&gt;MESSAGE&lt;/&gt; verwendet wurden.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_LOGGV</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <TXTLINES>00002</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_LOGGV</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Field contents that were used for the placeholders in the statement</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;AB&gt;MESSAGE&lt;/&gt;.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_LOGGV</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <TXTLINES>00003</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_LOGGV</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Il s&apos;agit des contenus de zones utilisés pour</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>le caractère générique dans l&apos;instruction</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;AB&gt;MESSAGE&lt;/&gt;.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_LOGGV</OBJECT>
+      <LANGU>I</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <TXTLINES>00002</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_LOGGV</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>I</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Contenuti campo utilizzati per i caratteri di riempimento</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>nell&apos;istruzione &lt;AB&gt;MESSAGE&lt;/&gt;.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_LOGGV</OBJECT>
+      <LANGU>J</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <TXTLINES>00001</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_LOGGV</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>J</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;AB&gt;MESSAGE&lt;/&gt; 命令でプレースホルダに使用された項目内容</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_LOGGV</OBJECT>
+      <LANGU>P</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <TXTLINES>00002</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_LOGGV</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>P</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Conteúdos do campo, que foram utilizados para os caracteres de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>preenchimento na instrução &lt;AB&gt;MESSAGE&lt;/&gt;.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_LOGGV</OBJECT>
+      <LANGU>S</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <TXTLINES>00002</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_LOGGV</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>S</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Contenidos de campo utilizados para la reserva-espacio en la sentencia</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;AB&gt;MESSAGE&lt;/&gt;.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

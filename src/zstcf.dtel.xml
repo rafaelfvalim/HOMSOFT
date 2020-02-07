@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZSTCF</ROLLNAME>
+    <DDLANGUAGE>P</DDLANGUAGE>
+    <DOMNAME>STBER_K</DOMNAME>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>05</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>17</SCRLEN3>
+    <DDTEXT>Status Cst Frete</DDTEXT>
+    <REPTEXT>Status Cst Frete</REPTEXT>
+    <SCRTEXT_S>StCFr</SCRTEXT_S>
+    <SCRTEXT_M>St Custo Frete</SCRTEXT_M>
+    <SCRTEXT_L>Status Cst Frete</SCRTEXT_L>
+    <DTELMASTER>P</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

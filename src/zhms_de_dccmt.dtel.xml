@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZHMS_DE_DCCMT</ROLLNAME>
+    <DDLANGUAGE>P</DDLANGUAGE>
+    <DOMNAME>CHAR50</DOMNAME>
+    <HEADLEN>50</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>19</SCRLEN2>
+    <SCRLEN3>31</SCRLEN3>
+    <DDTEXT>Código de Material do documento</DDTEXT>
+    <REPTEXT>Código de Material do documento</REPTEXT>
+    <SCRTEXT_S>Mat Docum</SCRTEXT_S>
+    <SCRTEXT_M>Cod. Mat. Documento</SCRTEXT_M>
+    <SCRTEXT_L>Código de Material do documento</SCRTEXT_L>
+    <DTELMASTER>P</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Material Code of the Document</DDTEXT>
+     <REPTEXT>Material Code of the Document</REPTEXT>
+     <SCRTEXT_S>Docn. Mat.</SCRTEXT_S>
+     <SCRTEXT_M>Mat. Cod. Document</SCRTEXT_M>
+     <SCRTEXT_L>Material Code of the Document</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Código de Material del Documento</DDTEXT>
+     <REPTEXT>Código de Material del Documento</REPTEXT>
+     <SCRTEXT_S>Mat Docnum</SCRTEXT_S>
+     <SCRTEXT_M>Cód. Mat. Documento</SCRTEXT_M>
+     <SCRTEXT_L>Código de Material del Document</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

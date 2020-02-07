@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZHMS_DE_BCODE</ROLLNAME>
+    <DDLANGUAGE>P</DDLANGUAGE>
+    <DOMNAME>ZHMS_DM_CODE</DOMNAME>
+    <HEADLEN>23</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>23</SCRLEN3>
+    <DDTEXT>Código do botão na tela</DDTEXT>
+    <REPTEXT>Código do botão na tela</REPTEXT>
+    <SCRTEXT_S>Cod. Botao</SCRTEXT_S>
+    <SCRTEXT_M>Código do botão</SCRTEXT_M>
+    <SCRTEXT_L>Código do botão na tela</SCRTEXT_L>
+    <DTELMASTER>P</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Button code on screen</DDTEXT>
+     <REPTEXT>Button code on screen</REPTEXT>
+     <SCRTEXT_S>But. Code</SCRTEXT_S>
+     <SCRTEXT_M>Button code</SCRTEXT_M>
+     <SCRTEXT_L>Button code on screen</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Código del botón en la pantalla</DDTEXT>
+     <REPTEXT>Código botón pantaja</REPTEXT>
+     <SCRTEXT_S>Cod. Botón</SCRTEXT_S>
+     <SCRTEXT_M>Código botón</SCRTEXT_M>
+     <SCRTEXT_L>Código botón pantaja</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

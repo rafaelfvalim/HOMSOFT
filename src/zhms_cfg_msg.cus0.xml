@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CUS0" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <CUS0>
+    <HEADER>
+     <ACTIVITY>ZHMS_CFG_MSG</ACTIVITY>
+     <DOCU_ID>SIMGZHMS_CFG_MSG</DOCU_ID>
+     <ATTRIBUTES>ZHMS_CFG_MSG</ATTRIBUTES>
+     <C_ACTIVITY>ZHMS_CFG_MSG</C_ACTIVITY>
+     <TCODE>Y_IDS_68000206</TCODE>
+    </HEADER>
+    <TEXTS>
+     <CUS_IMGACT>
+      <SPRAS>P</SPRAS>
+      <ACTIVITY>ZHMS_CFG_MSG</ACTIVITY>
+      <TEXT>Mensagerias e Layouts</TEXT>
+     </CUS_IMGACT>
+    </TEXTS>
+   </CUS0>
+  </asx:values>
+ </asx:abap>
+</abapGit>

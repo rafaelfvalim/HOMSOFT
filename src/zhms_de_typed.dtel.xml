@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZHMS_DE_TYPED</ROLLNAME>
+    <DDLANGUAGE>P</DDLANGUAGE>
+    <DOMNAME>ZHMS_DM_CODE</DOMNAME>
+    <HEADLEN>17</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>17</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Tipo de Documento</DDTEXT>
+    <REPTEXT>Tipo de Documento</REPTEXT>
+    <SCRTEXT_S>Tipo Doc.</SCRTEXT_S>
+    <SCRTEXT_M>Tipo de Documento</SCRTEXT_M>
+    <SCRTEXT_L>Tipo de Documento</SCRTEXT_L>
+    <DTELMASTER>P</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Document Type</DDTEXT>
+     <REPTEXT>Document Type</REPTEXT>
+     <SCRTEXT_S>Doc. Type</SCRTEXT_S>
+     <SCRTEXT_M>Document Type</SCRTEXT_M>
+     <SCRTEXT_L>Document Type</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Especie del Documento</DDTEXT>
+     <REPTEXT>Especie Documento</REPTEXT>
+     <SCRTEXT_S>Esp. Doc.</SCRTEXT_S>
+     <SCRTEXT_M>Especie Documento</SCRTEXT_M>
+     <SCRTEXT_L>Especie Documento</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

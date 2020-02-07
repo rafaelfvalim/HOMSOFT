@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZHMS_DE_RETDE</ROLLNAME>
+    <DDLANGUAGE>P</DDLANGUAGE>
+    <DOMNAME>CHAR50</DOMNAME>
+    <HEADLEN>50</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>32</SCRLEN3>
+    <DDTEXT>Descrição de Retorno da Entidade Trbutária</DDTEXT>
+    <REPTEXT>Descrição de Retorno da Entidade Trbutária</REPTEXT>
+    <SCRTEXT_S>Descrição</SCRTEXT_S>
+    <SCRTEXT_M>Descrição de Retorno</SCRTEXT_M>
+    <SCRTEXT_L>Descrição de Retorno da Entidade</SCRTEXT_L>
+    <DTELMASTER>P</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

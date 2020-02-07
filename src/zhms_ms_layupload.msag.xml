@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZHMS_MS_LAYUPLOAD</ARBGB>
+    <MASTERLANG>P</MASTERLANG>
+    <STEXT>HomSoft: Classe de Mensagens do Importador Layout</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MS_LAYUPLOAD</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MS_LAYUPLOAD</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Tradução Natureza do Documento não não existe em &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MS_LAYUPLOAD</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Tradução Tipo do Documento não não existe em &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MS_LAYUPLOAD</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Tradução Evento do Documento não não existe em &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MS_LAYUPLOAD</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Dados Inseridos com sucesso !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MS_LAYUPLOAD</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Erro ao inserir os dados.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MS_LAYUPLOAD</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Preencher campos obrigatórios</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZHMS_MS_LAYUPLOAD</ARBGB>
+     <STEXT>HomSoft: Layout Importer Messages Class</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZHMS_MS_LAYUPLOAD</ARBGB>
+     <STEXT>HomSoft: Clase de mensajes de importación de diseño</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Document Nature Translation does not exist in &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Translation Document Type does not exist in &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Translation Document Event does not exist in &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Data Inserted successfully!</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Error entering data.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Fill in required fields</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>La naturaleza del documento no existe en &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Traducción Tipo de documento no existe en &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Traducción Evento del documento no existe en &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Datos Inseridos con éxito!</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Error al insertar los datos.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Rellenar campos obligatorios</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

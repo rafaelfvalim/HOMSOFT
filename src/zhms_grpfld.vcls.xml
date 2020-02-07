@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_VCLS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VCLDIR>
+    <VCLNAME>ZHMS_GRPFLD</VCLNAME>
+    <TEXT>HomSoft: Tela Seleção Dinâmica para Documentos</TEXT>
+   </VCLDIR>
+   <VLCSTRUC_TAB>
+    <V_VCLSTRUC>
+     <VCLNAME>ZHMS_GRPFLD</VCLNAME>
+     <OBJECT>ZHMS_VW_GRPFLD</OBJECT>
+     <OBJECTTEXT>Grupo de Campos/Telas</OBJECTTEXT>
+     <PREDOBJECT>ZHMS_VW_GRPFLD</PREDOBJECT>
+     <DEPENDENCY>R</DEPENDENCY>
+     <OBJPOS>01</OBJPOS>
+     <OBJLEVEL>01</OBJLEVEL>
+     <STARTOBJ>X</STARTOBJ>
+    </V_VCLSTRUC>
+    <V_VCLSTRUC>
+     <VCLNAME>ZHMS_GRPFLD</VCLNAME>
+     <OBJECT>ZHMS_VW_GRPFLD_S</OBJECT>
+     <OBJECTTEXT>Tela de Seleção</OBJECTTEXT>
+     <PREDOBJECT>ZHMS_VW_GRPFLD</PREDOBJECT>
+     <DEPENDENCY>S</DEPENDENCY>
+     <OBJPOS>02</OBJPOS>
+     <OBJLEVEL>02</OBJLEVEL>
+    </V_VCLSTRUC>
+   </VLCSTRUC_TAB>
+   <VCLSTRUDEP_TAB>
+    <V_VCLSTDEP>
+     <VCLNAME>ZHMS_GRPFLD</VCLNAME>
+     <OBJECT>ZHMS_VW_GRPFLD</OBJECT>
+     <PREDOBJECT>ZHMS_VW_GRPFLD</PREDOBJECT>
+    </V_VCLSTDEP>
+    <V_VCLSTDEP>
+     <VCLNAME>ZHMS_GRPFLD</VCLNAME>
+     <OBJECT>ZHMS_VW_GRPFLD_S</OBJECT>
+     <OBJFIELD>CODGF</OBJFIELD>
+     <PREDOBJECT>ZHMS_VW_GRPFLD</PREDOBJECT>
+     <PREDFIELD>CODGF</PREDFIELD>
+    </V_VCLSTDEP>
+   </VCLSTRUDEP_TAB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

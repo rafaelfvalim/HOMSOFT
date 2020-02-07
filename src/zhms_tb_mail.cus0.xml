@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CUS0" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <CUS0>
+    <HEADER>
+     <ACTIVITY>ZHMS_TB_MAIL</ACTIVITY>
+     <DOCU_ID>SIMGZHMS_TB_MAIL</DOCU_ID>
+     <ATTRIBUTES>ZHMS_TB_MAIL</ATTRIBUTES>
+     <C_ACTIVITY>ZHMS_TB_MAIL</C_ACTIVITY>
+     <TCODE>Y_EU1_70000272</TCODE>
+    </HEADER>
+    <TEXTS>
+     <CUS_IMGACT>
+      <SPRAS>P</SPRAS>
+      <ACTIVITY>ZHMS_TB_MAIL</ACTIVITY>
+      <TEXT>HomSoft: Envio de email por etapas para usuarios</TEXT>
+     </CUS_IMGACT>
+    </TEXTS>
+   </CUS0>
+  </asx:values>
+ </asx:abap>
+</abapGit>

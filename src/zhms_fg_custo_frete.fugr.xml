@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Custo Frete: Cria, altera valor e exclui</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZHMS_FG_CUSTO_FRETEF01</SOBJ_NAME>
+    <SOBJ_NAME>LZHMS_FG_CUSTO_FRETETOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZHMS_FG_CUSTO_FRETE</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZHMS_ATUALIZA_VALOR_CTE</FUNCNAME>
+     <SHORT_TEXT>Atualiza Valor CTE - Custo Frete</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ZENTRADA2</PARAMETER>
+       <DBSTRUCT>ZATUVR_CUSTO_FRETE</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRETURN</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ZENTRADA2</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Estrutura da entrada da função criar custo frete</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Parâmetro de retorno</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZHMS_CRIA_CUSTO_FRETE</FUNCNAME>
+     <SHORT_TEXT>Criar Custo Frete</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ZENTRADA</PARAMETER>
+       <DBSTRUCT>ZENT_CUSTO_FRETE</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRETURN</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ZENTRADA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Estrutura da entrada da função criar custo frete</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Parâmetro de retorno</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZHMS_CRIA_PO_CUSTO_FRETE</FUNCNAME>
+     <SHORT_TEXT>Gerar o pedido de compras através do documento de custo de frete</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ZENTRADA</PARAMETER>
+       <DBSTRUCT>ZENT_CUSTO_FRETE</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRETURN</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ZENTRADA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Estrutura da entrada da função criar custo frete</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Parâmetro de retorno</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZHMS_ESCRITURA_CTE</FUNCNAME>
+     <SHORT_TEXT>Execução da MIRO para cada CT-e</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ZENTRADA_J1B1N</PARAMETER>
+       <DBSTRUCT>ZENT_ESCRITURA_CTE</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRETURN</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ZENTRADA_J1B1N</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Estrutura da entrada da função escritura CTe</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Parâmetro de retorno</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZHMS_ESTORNA_MIRO_CTE</FUNCNAME>
+     <SHORT_TEXT>Estorno da MIRO do CTe</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ZENTRADA_CTE</PARAMETER>
+       <DBSTRUCT>ZENT_ESTORNA_MIRO_CTE</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRETURN</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ZENTRADA_CTE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Estrutura da entrada da função estorna MIRO do CTE</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Parâmetro de retorno</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZHMS_ESTORNO_PO_CUSTO_FRETE</FUNCNAME>
+     <SHORT_TEXT>Gerar o pedido de compras através do documento de custo de frete</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ZENTRADA</PARAMETER>
+       <DBSTRUCT>ZENT_CUSTO_FRETE</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRETURN</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ZENTRADA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Estrutura da entrada da função criar custo frete</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Parâmetro de retorno</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZHMS_EXCLUI_CUSTO_FRETE</FUNCNAME>
+     <SHORT_TEXT>Excluir Documeto Custo Frete</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ZENTRADA</PARAMETER>
+       <DBSTRUCT>ZENT_CUSTO_FRETE</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRETURN</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ZENTRADA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Estrutura da entrada da função criar custo frete</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Parâmetro de retorno</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZHMS_EXECUTA_MIRO_CTE</FUNCNAME>
+     <SHORT_TEXT>Execução da MIRO para cada CT-e</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ZENTRADA_MIRO</PARAMETER>
+       <DBSTRUCT>ZENT_EXECUTA_MIRO_CTE</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRETURN</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ZENTRADA_MIRO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Estrutura da entrada da função executa MIRO do CTE</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Parâmetro de retorno</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZHMS_VALIDA_DT_CTE</FUNCNAME>
+     <SHORT_TEXT>Verifica se o Documento de transporte existe SAP</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ZENTRADA_VALID</PARAMETER>
+       <DBSTRUCT>ZENT_VALIDA_DT</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRETURN</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ZENTRADA_VALID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Estrutura de entrada da Validação DT x CTE</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Parâmetro de retorno</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

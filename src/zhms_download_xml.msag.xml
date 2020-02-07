@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZHMS_DOWNLOAD_XML</ARBGB>
+    <MASTERLANG>P</MASTERLANG>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_DOWNLOAD_XML</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Campo Empresa obrigatório</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_DOWNLOAD_XML</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Campo Filial obrigatório</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_DOWNLOAD_XML</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Código do evento obrigatório</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_DOWNLOAD_XML</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Empresa invalida</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_DOWNLOAD_XML</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Chave de acesso obrigatória</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_DOWNLOAD_XML</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Justificativa deve conter no mínimo 15 caracteres</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_DOWNLOAD_XML</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Limite de caratectes da justificativa (&amp;) excedido!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_DOWNLOAD_XML</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>ERRO: Falta de parametrização de MNEUMONICOS</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_DOWNLOAD_XML</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Não foi encontrado registros para essa chave</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_DOWNLOAD_XML</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Solicitação Realizada</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_DOWNLOAD_XML</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Arquivo importado com sucesso</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_DOWNLOAD_XML</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Chaves foram limpas com sucesso !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_DOWNLOAD_XML</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Necessário Inserir data</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_DOWNLOAD_XML</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Registros não encontrados</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_DOWNLOAD_XML</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Não existe Log para esse registro</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

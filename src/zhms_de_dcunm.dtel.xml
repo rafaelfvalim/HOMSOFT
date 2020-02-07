@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZHMS_DE_DCUNM</ROLLNAME>
+    <DDLANGUAGE>P</DDLANGUAGE>
+    <DOMNAME>CHAR50</DOMNAME>
+    <HEADLEN>50</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>30</SCRLEN3>
+    <DDTEXT>Unidade de medida do documento</DDTEXT>
+    <REPTEXT>Código de Material do documento</REPTEXT>
+    <SCRTEXT_S>UM Docum</SCRTEXT_S>
+    <SCRTEXT_M>Unidade Medida Docum</SCRTEXT_M>
+    <SCRTEXT_L>Unidade de medida do documento</SCRTEXT_L>
+    <DTELMASTER>P</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Document Measure Unit</DDTEXT>
+     <REPTEXT>Document Measure Unit</REPTEXT>
+     <SCRTEXT_S>MU Docum</SCRTEXT_S>
+     <SCRTEXT_M>Document Measure Uni</SCRTEXT_M>
+     <SCRTEXT_L>Document Measure Unit</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Unidad de Medida del Documento</DDTEXT>
+     <REPTEXT>Unidad de Medida del Documento</REPTEXT>
+     <SCRTEXT_S>UM Docum</SCRTEXT_S>
+     <SCRTEXT_M>Unidad Medida Docum</SCRTEXT_M>
+     <SCRTEXT_L>Unidad de Medida del Documento</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

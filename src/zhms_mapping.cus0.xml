@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CUS0" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <CUS0>
+    <HEADER>
+     <ACTIVITY>ZHMS_MAPPING</ACTIVITY>
+     <DOCU_ID>SIMGZHMS_MAPPING</DOCU_ID>
+     <ATTRIBUTES>ZHMS_MAPPING</ATTRIBUTES>
+     <C_ACTIVITY>ZHMS_MAPPING</C_ACTIVITY>
+     <TCODE>Y_IDS_68000207</TCODE>
+    </HEADER>
+    <TEXTS>
+     <CUS_IMGACT>
+      <SPRAS>P</SPRAS>
+      <ACTIVITY>ZHMS_MAPPING</ACTIVITY>
+      <TEXT>Mapeamentos</TEXT>
+     </CUS_IMGACT>
+    </TEXTS>
+   </CUS0>
+  </asx:values>
+ </asx:abap>
+</abapGit>

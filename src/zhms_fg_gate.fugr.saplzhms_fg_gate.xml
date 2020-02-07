@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>SAPLZHMS_FG_GATE</NAME>
+    <DBAPL>S</DBAPL>
+    <DBNA>D$</DBNA>
+    <SUBC>F</SUBC>
+    <APPL>S</APPL>
+    <RLOAD>P</RLOAD>
+    <FIXPT>X</FIXPT>
+    <LDBNAME>D$S</LDBNAME>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Documento não encontrado</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>Q01</KEY>
+     <ENTRY>Confirmação</ENTRY>
+     <LENGTH>12</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>Q02</KEY>
+     <ENTRY>Deseja realmente cancelar a portaria para o documento</ENTRY>
+     <LENGTH>54</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>Q03</KEY>
+     <ENTRY>Sim</ENTRY>
+     <LENGTH>4</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>Q04</KEY>
+     <ENTRY>Não</ENTRY>
+     <LENGTH>4</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>Q06</KEY>
+     <ENTRY>Cancelada com sucesso! Deseja realizar uma nova portaria para o documento?</ENTRY>
+     <LENGTH>75</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>Q07</KEY>
+     <ENTRY>Um ou mais Itens com quantidade(s) igual(is) a 0. Continuar?</ENTRY>
+     <LENGTH>61</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>Q08</KEY>
+     <ENTRY>Deseja realmente cancelar a conferência para o documento</ENTRY>
+     <LENGTH>57</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>Q09</KEY>
+     <ENTRY>Cancelada com sucesso! Deseja realizar uma nova conferencia para o documento?</ENTRY>
+     <LENGTH>78</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>Q10</KEY>
+     <ENTRY>Um ou mais Itens com quantidade(s) divergentes. Continuar?</ENTRY>
+     <LENGTH>116</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

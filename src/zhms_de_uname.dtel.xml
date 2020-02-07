@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZHMS_DE_UNAME</ROLLNAME>
+    <DDLANGUAGE>P</DDLANGUAGE>
+    <DOMNAME>UNAME</DOMNAME>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Nome do usuário</DDTEXT>
+    <REPTEXT>Nome usuário</REPTEXT>
+    <SCRTEXT_S>Usuário</SCRTEXT_S>
+    <SCRTEXT_M>Nome do usuário</SCRTEXT_M>
+    <SCRTEXT_L>Nome do usuário</SCRTEXT_L>
+    <APPLCLASS>SAP</APPLCLASS>
+    <DTELMASTER>P</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>A</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>D</LANGU>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>W</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>用户名</DDTEXT>
+     <REPTEXT>用户名</REPTEXT>
+     <SCRTEXT_S>用户</SCRTEXT_S>
+     <SCRTEXT_M>用户名</SCRTEXT_M>
+     <SCRTEXT_L>用户名</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>ชื่อผู้ใช้</DDTEXT>
+     <REPTEXT>ชื่อผู้ใช้</REPTEXT>
+     <SCRTEXT_S>ผู้ใช้</SCRTEXT_S>
+     <SCRTEXT_M>ชื่อผู้ใช้</SCRTEXT_M>
+     <SCRTEXT_L>ชื่อผู้ใช้</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>사용자이름</DDTEXT>
+     <REPTEXT>사용자이름</REPTEXT>
+     <SCRTEXT_S>사용자</SCRTEXT_S>
+     <SCRTEXT_M>사용자이름</SCRTEXT_M>
+     <SCRTEXT_L>사용자이름</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>Korisničko ime</DDTEXT>
+     <REPTEXT>Korisničko ime</REPTEXT>
+     <SCRTEXT_S>Korisnik</SCRTEXT_S>
+     <SCRTEXT_M>Korisničko ime</SCRTEXT_M>
+     <SCRTEXT_L>Korisničko ime</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>A</DDLANGUAGE>
+     <DDTEXT>اسم المستخدم</DDTEXT>
+     <REPTEXT>اسم المستخدم</REPTEXT>
+     <SCRTEXT_S>مستخدم</SCRTEXT_S>
+     <SCRTEXT_M>اسم المستخدم</SCRTEXT_M>
+     <SCRTEXT_L>اسم المستخدم</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>שם משתמש</DDTEXT>
+     <REPTEXT>שם משתמש</REPTEXT>
+     <SCRTEXT_S>משתמש</SCRTEXT_S>
+     <SCRTEXT_M>שם משתמש</SCRTEXT_M>
+     <SCRTEXT_L>שם משתמש</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Uživatel</DDTEXT>
+     <REPTEXT>Uživatel</REPTEXT>
+     <SCRTEXT_S>Uživatel</SCRTEXT_S>
+     <SCRTEXT_M>Uživatel</SCRTEXT_M>
+     <SCRTEXT_L>Uživatel</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Benutzername</DDTEXT>
+     <REPTEXT>Benutzername</REPTEXT>
+     <SCRTEXT_S>Benutzer</SCRTEXT_S>
+     <SCRTEXT_M>Benutzername</SCRTEXT_M>
+     <SCRTEXT_L>Benutzername</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>User Name</DDTEXT>
+     <REPTEXT>User Name</REPTEXT>
+     <SCRTEXT_S>User</SCRTEXT_S>
+     <SCRTEXT_M>User Name</SCRTEXT_M>
+     <SCRTEXT_L>User Name</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Nom d&apos;utilisateur</DDTEXT>
+     <REPTEXT>Nom d&apos;utilisateur</REPTEXT>
+     <SCRTEXT_S>Utilisat.</SCRTEXT_S>
+     <SCRTEXT_M>Nom utilisateur</SCRTEXT_M>
+     <SCRTEXT_L>Nom d&apos;utilisateur</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Felhasználónév</DDTEXT>
+     <REPTEXT>Felhasználónév</REPTEXT>
+     <SCRTEXT_S>Felhaszn.</SCRTEXT_S>
+     <SCRTEXT_M>Felhasználónév</SCRTEXT_M>
+     <SCRTEXT_L>Felhasználónév</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Nome utente</DDTEXT>
+     <REPTEXT>Nome utente</REPTEXT>
+     <SCRTEXT_S>Utente</SCRTEXT_S>
+     <SCRTEXT_M>Nome utente</SCRTEXT_M>
+     <SCRTEXT_L>Nome utente</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>ユーザ名</DDTEXT>
+     <REPTEXT>ユーザ名</REPTEXT>
+     <SCRTEXT_S>ユーザ</SCRTEXT_S>
+     <SCRTEXT_M>ユーザ名</SCRTEXT_M>
+     <SCRTEXT_L>ユーザ名</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Nazwa użytkownika</DDTEXT>
+     <REPTEXT>Nazwa użytkownika</REPTEXT>
+     <SCRTEXT_S>Użytkownik</SCRTEXT_S>
+     <SCRTEXT_M>Nazwa użytk.</SCRTEXT_M>
+     <SCRTEXT_L>Nazwa użytkownika</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>使用者名稱</DDTEXT>
+     <REPTEXT>使用者名稱</REPTEXT>
+     <SCRTEXT_S>使用者</SCRTEXT_S>
+     <SCRTEXT_M>使用者名稱</SCRTEXT_M>
+     <SCRTEXT_L>使用者名稱</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Gebruikersnaam</DDTEXT>
+     <REPTEXT>Gebruikersnaam</REPTEXT>
+     <SCRTEXT_S>Gebruiker</SCRTEXT_S>
+     <SCRTEXT_M>Gebruikersnaam</SCRTEXT_M>
+     <SCRTEXT_L>Gebruikersnaam</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Meno užívateľa</DDTEXT>
+     <REPTEXT>Meno užívateľa</REPTEXT>
+     <SCRTEXT_S>Užívateľ</SCRTEXT_S>
+     <SCRTEXT_M>Meno užívateľa</SCRTEXT_M>
+     <SCRTEXT_L>Meno užívateľa</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Имя пользователя</DDTEXT>
+     <REPTEXT>Имя пользователя</REPTEXT>
+     <SCRTEXT_S>Пользов.</SCRTEXT_S>
+     <SCRTEXT_M>ИмяПользователя</SCRTEXT_M>
+     <SCRTEXT_L>Имя пользователя</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Nombre de usuario</DDTEXT>
+     <REPTEXT>Usuario</REPTEXT>
+     <SCRTEXT_S>Usuario</SCRTEXT_S>
+     <SCRTEXT_M>Usuario</SCRTEXT_M>
+     <SCRTEXT_L>Usuario</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Kullanıcı adı</DDTEXT>
+     <REPTEXT>Kullanıcı adı</REPTEXT>
+     <SCRTEXT_S>Kullanıcı</SCRTEXT_S>
+     <SCRTEXT_M>Kullanıcı adı</SCRTEXT_M>
+     <SCRTEXT_L>Kullanıcı adı</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <DDTEXT>Потребителско име</DDTEXT>
+     <REPTEXT>Потребителско име</REPTEXT>
+     <SCRTEXT_S>Потребител</SCRTEXT_S>
+     <SCRTEXT_M>Име потребител</SCRTEXT_M>
+     <SCRTEXT_L>Потребителско име</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

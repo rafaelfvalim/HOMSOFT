@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>HomSoft - Grupo Funções para Fatura</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>SAPLZHMS_FG_FATURA</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZHMS_ENVIA_EMAILFATURA</FUNCNAME>
+     <SHORT_TEXT>HomSoft: Envia E-mail Etapas</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>CHAVE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZHMS_DE_CHAVE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>USUARIO</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>SY-UNAME</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>NATDC</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZHMS_DE_NATDC</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>TYPED</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZHMS_DE_TYPED</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>ETAPA</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZHMS_DE_FLOWD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>OTHERS</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>FLAG</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>TITULO</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>STRING</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>CORPO</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>STRING</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>CHAVE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Chave do Documento</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>USUARIO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Campo do sistema ABAP: nome do usuário atual</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NATDC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Natureza Documento</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TYPED</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tipo de Documento</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ETAPA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Etapa do Fluxo</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>OTHERS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Flag geral</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TITULO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Titulo email</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CORPO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Corpo Email</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZHMS_FM_QUAZARIS_FATURA</FUNCNAME>
+     <SHORT_TEXT>HomSoft - Função para carga de Fatura com CTes</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>EXNAT</PARAMETER>
+       <TYP>ZHMS_DE_EXNAT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>EXTPD</PARAMETER>
+       <TYP>ZHMS_DE_EXTPD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>MENSG</PARAMETER>
+       <TYP>ZHMS_DE_MENSG</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>EXEVT</PARAMETER>
+       <TYP>ZHMS_DE_EXEVT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>DIREC</PARAMETER>
+       <TYP>ZHMS_DE_DIREC</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>CHAVE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZHMS_DE_CHAVE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>LOGGER</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZHMS_DE_TEXTO</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>P_CRITC</PARAMETER>
+       <TYP>FLAG</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MSGDATA</PARAMETER>
+       <DBSTRUCT>ZHMS_ES_MSGDT</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>MSGATRB</PARAMETER>
+       <DBSTRUCT>ZHMS_ES_MSGAT</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>RETURN</PARAMETER>
+       <DBSTRUCT>ZHMS_ES_RETURN</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>EXNAT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Denominador Externo: Natureza do documento</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EXTPD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Denominação Externa: Tipo de Documento</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MENSG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Mensageria</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EXEVT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Denominador Externo: Evento</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DIREC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Direção</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CHAVE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Chave do Documento</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LOGGER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>HomSoft - Campo texto</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>P_CRITC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Flag geral</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MSGDATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>HomSoft: Estrutura da Mensagem</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MSGATRB</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>HomSoft: Atributos da Mensagem</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>HomSoft: Retorno</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZHMS_FM_QUAZARIS_FAT_BIZTALK</FUNCNAME>
+     <SHORT_TEXT>HomSoft - Função para carga de Fatura com CTes</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>EXNAT</PARAMETER>
+       <TYP>ZHMS_DE_EXNAT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>EXTPD</PARAMETER>
+       <TYP>ZHMS_DE_EXTPD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>MENSG</PARAMETER>
+       <TYP>ZHMS_DE_MENSG</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>EXEVT</PARAMETER>
+       <TYP>ZHMS_DE_EXEVT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>DIREC</PARAMETER>
+       <TYP>ZHMS_DE_DIREC</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>XMLSTRINGBIN</PARAMETER>
+       <TYP>XSTRING</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>RETURN</PARAMETER>
+       <DBSTRUCT>ZHMS_ES_RETURN</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>EXNAT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Denominador Externo: Natureza do documento</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EXTPD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Denominação Externa: Tipo de Documento</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MENSG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Mensageria</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EXEVT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Denominador Externo: Evento</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DIREC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Direção</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>XMLSTRINGBIN</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>HomSoft: Retorno</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

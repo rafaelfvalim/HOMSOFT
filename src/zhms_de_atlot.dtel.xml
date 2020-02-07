@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZHMS_DE_ATLOT</ROLLNAME>
+    <DDLANGUAGE>P</DDLANGUAGE>
+    <DOMNAME>CHAR14</DOMNAME>
+    <HEADLEN>14</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Lote Atribuído</DDTEXT>
+    <REPTEXT>Lote Atribuído</REPTEXT>
+    <SCRTEXT_S>Lote Atrib</SCRTEXT_S>
+    <SCRTEXT_M>Lote Atribuído</SCRTEXT_M>
+    <SCRTEXT_L>Lote Atribuído</SCRTEXT_L>
+    <DTELMASTER>P</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Assigned Batch</DDTEXT>
+     <REPTEXT>Assigned Batch</REPTEXT>
+     <SCRTEXT_S>Asgn Batch</SCRTEXT_S>
+     <SCRTEXT_M>Assigned Batch</SCRTEXT_M>
+     <SCRTEXT_L>Assigned Batch</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Lote Asignado</DDTEXT>
+     <REPTEXT>Lote Asignado</REPTEXT>
+     <SCRTEXT_S>Lote Asign</SCRTEXT_S>
+     <SCRTEXT_M>Lote Asignado</SCRTEXT_M>
+     <SCRTEXT_L>Lote Asignado</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

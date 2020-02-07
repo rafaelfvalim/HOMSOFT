@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZHMS_ED_TP_EMAIL</ROLLNAME>
+    <DDLANGUAGE>P</DDLANGUAGE>
+    <DOMNAME>ZHMS_DM_TP_EMAIL</DOMNAME>
+    <HEADLEN>32</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>32</SCRLEN3>
+    <DDTEXT>HomSoft: Tipos de envio de email</DDTEXT>
+    <REPTEXT>HomSoft: Tipos de envio de email</REPTEXT>
+    <SCRTEXT_S>TP.Email</SCRTEXT_S>
+    <SCRTEXT_M>Tp Envio email</SCRTEXT_M>
+    <SCRTEXT_L>HomSoft: Tipos de envio de email</SCRTEXT_L>
+    <DTELMASTER>P</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

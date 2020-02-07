@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>HomSoft: Grupo de funções para documento</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZHMS_FG_DOCUMENTF01</SOBJ_NAME>
+    <SOBJ_NAME>LZHMS_FG_DOCUMENTF02</SOBJ_NAME>
+    <SOBJ_NAME>LZHMS_FG_DOCUMENTF03</SOBJ_NAME>
+    <SOBJ_NAME>LZHMS_FG_DOCUMENTTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZHMS_FG_DOCUMENT</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZHMS_FM_CONSULTAET</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>HomSoft: Consulta do documento na Entidade Tributaria</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>NATDC</PARAMETER>
+       <TYP>ZHMS_DE_NATDC</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>TYPED</PARAMETER>
+       <TYP>ZHMS_DE_TYPED</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>CHAVE</PARAMETER>
+       <TYP>ZHMS_DE_CHAVE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>RETURN</PARAMETER>
+       <DBFIELD>ZHMS_ES_RETURN</DBFIELD>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>NATDC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Natureza Documento</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TYPED</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tipo de Documento</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CHAVE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Chave do Documento</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>HomSoft: Retorno</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZHMS_FM_REGISTRADOCUMENTO</FUNCNAME>
+     <SHORT_TEXT>HomSoft: Registra documento nas bases HomSoft</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>DOCST</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZHMS_TB_DOCST</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>CABDOC</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZHMS_TB_CABDOC</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>DOCST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>HomSoft: Status de Documento</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CABDOC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>HomSoft: Cabeçalhos de Documentos Eletrônicos</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZHMS_FM_REGLOG</FUNCNAME>
+     <SHORT_TEXT>HomSoft: Registrar Logs para o documento</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>CABDOC</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZHMS_TB_CABDOC</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>FLOWD</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZHMS_DE_FLOWD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>FLWST</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZHMS_DE_FLWST</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>TPPRM</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZHMS_DE_TPPRM</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>BAPIRET</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>LOGDOC</PARAMETER>
+       <DBSTRUCT>ZHMS_TB_LOGDOC</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>CABDOC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>HomSoft: Cabeçalhos de Documentos Eletrônicos</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>FLOWD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Etapa do Fluxo</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>FLWST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Status da etapa de fluxo para cenário</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TPPRM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tipo de Ação da etapa</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>BAPIRET</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Parâmetro de retorno</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LOGDOC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>HomSoft: Logs de Documentos</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZHMS_FM_STATUS</FUNCNAME>
+     <SHORT_TEXT>HomSoft: Atualiza Status de documento</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>CABDOC</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZHMS_TB_CABDOC</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>CABDOC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>HomSoft: Cabeçalhos de Documentos Eletrônicos</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Document is approved</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Document is pending</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Document is canceled</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>S</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Documento está aprobado</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>El documento está pendiente</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>El documento está cancelado</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

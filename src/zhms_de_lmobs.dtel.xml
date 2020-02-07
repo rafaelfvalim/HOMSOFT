@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZHMS_DE_LMOBS</ROLLNAME>
+    <DDLANGUAGE>P</DDLANGUAGE>
+    <DOMNAME>INT4</DOMNAME>
+    <HEADLEN>36</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>36</SCRLEN3>
+    <DDTEXT>Limite de caracteres para observação</DDTEXT>
+    <REPTEXT>Limite de caracteres para observação</REPTEXT>
+    <SCRTEXT_S>Limite</SCRTEXT_S>
+    <SCRTEXT_M>Limite de caracteres</SCRTEXT_M>
+    <SCRTEXT_L>Limite de caracteres para observação</SCRTEXT_L>
+    <DTELMASTER>P</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

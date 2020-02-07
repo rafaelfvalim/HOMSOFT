@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZHMS_MC_LOGDOC</ARBGB>
+    <MASTERLANG>P</MASTERLANG>
+    <STEXT>HomSoft: Logs possíveis para documento</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_LOGDOC</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Documento número &amp; enviado à entidade tributária</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_LOGDOC</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Documento número &amp; aprovado pela entidade tributária</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_LOGDOC</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Cancelamento para documento número &amp; enviado à entidade tributária</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_LOGDOC</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Cancelamento para documento número &amp; aprovado pela entidade tributária</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_LOGDOC</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Inutilização para documento número &amp; enviado à entidade tributária</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_LOGDOC</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Inutilização para documento número &amp; aprovado pela entidade tributária</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_LOGDOC</ARBGB>
+     <MSGNR>006</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_LOGDOC</ARBGB>
+     <MSGNR>007</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_LOGDOC</ARBGB>
+     <MSGNR>008</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_LOGDOC</ARBGB>
+     <MSGNR>009</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_LOGDOC</ARBGB>
+     <MSGNR>010</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_LOGDOC</ARBGB>
+     <MSGNR>200</MSGNR>
+     <TEXT>Portaria Registrada</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_LOGDOC</ARBGB>
+     <MSGNR>201</MSGNR>
+     <TEXT>Portaria Cancelada</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_LOGDOC</ARBGB>
+     <MSGNR>250</MSGNR>
+     <TEXT>Conferência Registrada</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_LOGDOC</ARBGB>
+     <MSGNR>251</MSGNR>
+     <TEXT>Conferência Cancelada</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_LOGDOC</ARBGB>
+     <MSGNR>252</MSGNR>
+     <TEXT>Conferência Realizada com divergências</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_LOGDOC</ARBGB>
+     <MSGNR>500</MSGNR>
+     <TEXT>Atribuição realizada com sucesso</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_LOGDOC</ARBGB>
+     <MSGNR>700</MSGNR>
+     <TEXT>Entrada Manual(J1B1N) Realizada com sucesso !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_LOGDOC</ARBGB>
+     <MSGNR>701</MSGNR>
+     <TEXT>Erro no processo de entrada manual(J1B1N).</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZHMS_MC_LOGDOC</ARBGB>
+     <STEXT>HomSoft: Possible Document Logs</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZHMS_MC_LOGDOC</ARBGB>
+     <STEXT>HomSoft: registros posibles para documento</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Document number &amp; sent to the tax entity</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Document number &amp; approved by the tax entity</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Cancellation for document number &amp; sent to tax entity</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Cancellation for document number &amp; approved by tax entity</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Deletion for document number &amp; sent to tax entity</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Deprecation for document number &amp; approved by tax entity</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>200</MSGNR>
+     <TEXT>Registered Office</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>201</MSGNR>
+     <TEXT>Cancellation office</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>250</MSGNR>
+     <TEXT>Registered Conference</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>251</MSGNR>
+     <TEXT>Conference Canceled</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>500</MSGNR>
+     <TEXT>Assignment successfully completed</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>700</MSGNR>
+     <TEXT>Manual Input (J1B1N) Successful!</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>701</MSGNR>
+     <TEXT>Error in manual input process (J1B1N).</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Documento número &amp; enviado a la entidad tributaria</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Documento número &amp; aprobado por la entidad tributaria</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Cancelación para documento número &amp; enviado a la entidad tributaria</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Cancelación para documento número &amp; aprobado por la entidad tributaria</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Inutilización para documento número &amp; enviado a la entidad tributaria</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Inutilización para documento número &amp; aprobado por la entidad tributaria</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>200</MSGNR>
+     <TEXT>Portaria Registrada</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>201</MSGNR>
+     <TEXT>Portaria Cancelada</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>250</MSGNR>
+     <TEXT>Conferencia Registrada</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>251</MSGNR>
+     <TEXT>Conferencia Cancelada</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>500</MSGNR>
+     <TEXT>Asignación realizada con éxito</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>700</MSGNR>
+     <TEXT>Entrada manual (J1B1N) Realizada con éxito!</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>701</MSGNR>
+     <TEXT>Error en el proceso de entrada manual (J1B1N).</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

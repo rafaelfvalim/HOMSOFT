@@ -1,0 +1,92 @@
+<html>
+<style type="text/css">
+body {
+	margin: 0px;
+	overflow: hidden;
+	border: 0px solid;
+	background-color: #EAF0F6;
+}
+.dc_cenario {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	color: #333;
+}
+.dc_numero {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	color: #06C;
+}
+.dc_topico {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #06F;
+}
+.dc_value {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #333;
+}
+.dc_barr {
+	background-image: url(dc_barr.gif);
+	background-repeat: repeat-x;
+}
+.dc_links {
+	width: 160;
+	height: 26;
+	border: 1px solid #999999;
+	background-color: #EAF0F6;
+}
+.dc_linkseparador{
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#666;
+}
+</style>
+<script language="javascript">
+
+function seleciona(alvo){
+	document.getElementById('det').src = "dc_det_norm.gif";
+	document.getElementById('xml').src = "dc_xml_norm.gif";
+	document.getElementById('pdf').src = "dc_pdf_norm.gif";
+	document.getElementById('flow').src = "dc_flow_norm.gif";
+	
+	document.getElementById(alvo).src = "dc_"+ alvo +"_sele.gif";
+}
+</script>
+<body>
+<table cellpadding="2" cellspacing="2" border="0" width="100%">
+  <tr>
+    <td width="32" rowspan="5" valign="top"><span id="dc_imagem"><img src="" border="0" /></span></td>
+    <td colspan="2"><span class="dc_cenario" id="dc_cenario">Scenery</span>&nbsp;<span class="dc_numero" id="dc_numero">Number</span></td>
+  </tr>
+  <tr>
+    <td width="120" class="dc_topico" id="dc_partnt">Partner</td>
+    <td class="dc_value" id="dc_partnv">Partner Name</td>
+  </tr>
+  <tr>
+    <td id="dc_dtdoct" class="dc_topico">Document Date</td>
+    <td id="dc_dtdocv" class="dc_value">Date</td>
+  </tr>
+  <tr>
+    <td id="dc_dtlnct" class="dc_topico">2nd Document Date</td>
+    <td id="dc_dtlncv" class="dc_value">Date</td>
+  </tr>
+  <tr>
+    <td id="dc_chavet" class="dc_topico">Document Key</td>
+    <td id="dc_chavev" class="dc_value">Key</td>
+  </tr>
+</table>
+<br />
+<div class="dc_barr" align="center">
+  <div class="dc_links">
+    <table cellpadding="1" cellspacing="1" width="100%">
+      <tr>
+        <td align="center" width="25%"><a href="SAPEVENT:show_det" onClick="seleciona('det')" style="cursor:pointer"><img src="dc_det_norm.gif" id="det" border="0" alt="Detalhes"></a></td><td class="dc_linkseparador" valign="middle">|</td>
+        <td align="center" width="25%"><a href="SAPEVENT:show_det" onClick="seleciona('xml')" style="cursor:pointer"><img src="dc_xml_norm.gif" id="xml" border="0" alt="XML"></a></td><td class="dc_linkseparador" valign="middle">|</td>
+        <td align="center" width="25%"><a href="SAPEVENT:show_det" onClick="seleciona('pdf')" style="cursor:pointer"><img src="dc_pdf_norm.gif" id="pdf" border="0" alt="PDF"></a></td><td class="dc_linkseparador" valign="middle">|</td>
+        <td align="center" width="25%"><a href="SAPEVENT:show_det" onClick="seleciona('flow')" style="cursor:pointer"><img src="dc_flow_norm.gif" id="flow" border="0" alt="Fluxo"></a></td>
+      </tr>
+    </table>
+  </div>
+</div>
+</body>
+</html>

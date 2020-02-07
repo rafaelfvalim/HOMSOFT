@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>HomSoft: Grupo de funções auxiliares</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZHMS_FG_AUXTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZHMS_FG_AUX</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZHMS_FM_INSCAB</FUNCNAME>
+     <SHORT_TEXT>HomSoft: Inserir dados de cabeçalho</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>CABDOC</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZHMS_TB_CABDOC</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>CABDOC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>HomSoft: Cabeçalhos de Documentos Eletrônicos</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZHMS_FM_LOTE_DADOS</FUNCNAME>
+     <SHORT_TEXT>Número do Lote para Dados</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>V_OBJETO</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR15</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>V_LOTE</PARAMETER>
+       <TYP>ZHMS_DE_LOTE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>V_OBJETO</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>V_LOTE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Lote de atualização</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZHMS_FM_SQL</FUNCNAME>
+     <SHORT_TEXT>Executor de SQL</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>OPSQL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZHMS_DE_OPSQL</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>DETAB</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZHMS_DE_DETAB</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>OPSQL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Operação SQL</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DETAB</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabela de Destino</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

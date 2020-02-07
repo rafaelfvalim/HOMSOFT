@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>HomSoft: Estorno</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>SAPLZHMS_FG_ESTORNO</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZHMS_ESTORNO_J1B3N</FUNCNAME>
+     <SHORT_TEXT>HomSoft: Estorno J1B3N</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FLWDOC</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZHMS_TB_FLWDOC</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>LT_RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FLWDOC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>HomSoft: Etapas de fluxo para o documento</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LT_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Parâmetro de retorno</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZHMS_ESTORNO_VI02</FUNCNAME>
+     <SHORT_TEXT>HomSoft:  Estorno VI02</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FLWDOC</PARAMETER>
+       <TYP>ZHMS_TB_FLWDOC</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>LT_RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FLWDOC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>HomSoft: Etapas de fluxo para o documento</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LT_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Parâmetro de retorno</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

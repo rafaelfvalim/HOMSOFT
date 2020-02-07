@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>ZHMS_DM_FLDST</DOMNAME>
+    <DDLANGUAGE>P</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000001</LENG>
+    <OUTPUTLEN>000001</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Status da etapa de fluxo para cenário</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <DOMNAME>ZHMS_DM_FLDST</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>W</DOMVALUE_L>
+     <DDTEXT>Aguardando</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZHMS_DM_FLDST</DOMNAME>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>M</DOMVALUE_L>
+     <DDTEXT>Concluído Manualmente</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZHMS_DM_FLDST</DOMNAME>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>A</DOMVALUE_L>
+     <DDTEXT>Concluído Automaticamente</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZHMS_DM_FLDST</DOMNAME>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>E</DOMVALUE_L>
+     <DDTEXT>Erro</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZHMS_DM_FLDST</DOMNAME>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>C</DOMVALUE_L>
+     <DDTEXT>Cancelada</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

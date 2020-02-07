@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Envio de MDE</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZHMS_FG_ENVIA_MDETOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZHMS_FG_ENVIA_MDE</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZHMS_FM_ENVIA_MDE</FUNCNAME>
+     <SHORT_TEXT>Envio de MDE</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>CHAVE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR44</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>TPEVENTO</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR6</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>TPAMB</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>NSEQEVENTO</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>DESCEVENTO</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR70</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>XJUST</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR255</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>DHEMI</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR25</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>CHAVE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Categoria de dados numérica char 44</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TPEVENTO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Campo de caracteres do comprimento 8</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TPAMB</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Código de uma posição</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NSEQEVENTO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Código de uma posição</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DESCEVENTO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Campo de caracteres de comprimento 70</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>XJUST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Char255</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DHEMI</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Campo de usuário p/cluster PC nacional</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Parâmetro de retorno</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

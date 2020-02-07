@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZHMS_DE_CANCEL_PORT</ROLLNAME>
+    <DDLANGUAGE>P</DDLANGUAGE>
+    <DOMNAME>FLAG</DOMNAME>
+    <HEADLEN>16</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>16</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>HomSoft: Cancela Portaria</DDTEXT>
+    <REPTEXT>Cancela Portaria</REPTEXT>
+    <SCRTEXT_S>Canc.Porta</SCRTEXT_S>
+    <SCRTEXT_M>Cancela Portaria</SCRTEXT_M>
+    <SCRTEXT_L>Cancela Portaria</SCRTEXT_L>
+    <DTELMASTER>P</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

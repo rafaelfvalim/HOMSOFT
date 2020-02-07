@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZHMS_DE_FLWST</ROLLNAME>
+    <DDLANGUAGE>P</DDLANGUAGE>
+    <DOMNAME>ZHMS_DM_FLDST</DOMNAME>
+    <HEADLEN>37</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>37</SCRLEN3>
+    <DDTEXT>Status da etapa de fluxo para cenário</DDTEXT>
+    <REPTEXT>Status da etapa de fluxo para cenário</REPTEXT>
+    <SCRTEXT_S>Status</SCRTEXT_S>
+    <SCRTEXT_M>Status da etapa</SCRTEXT_M>
+    <SCRTEXT_L>Status da etapa de fluxo para cenário</SCRTEXT_L>
+    <DTELMASTER>P</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

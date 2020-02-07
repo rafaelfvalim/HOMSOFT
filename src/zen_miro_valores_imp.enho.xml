@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>HOOK_IMPL</TOOL>
+   <SHORTTEXT>ZEN_MIRO_VALORES_IMP</SHORTTEXT>
+   <ORIGINAL_OBJECT>
+    <PGMID>R3TR</PGMID>
+    <ORG_OBJ_TYPE>ENHO</ORG_OBJ_TYPE>
+    <ORG_OBJ_NAME>OIA_SI_SAPLMRMH</ORG_OBJ_NAME>
+    <ORG_MAIN_TYPE>ENHO</ORG_MAIN_TYPE>
+    <ORG_MAIN_NAME>OIA_SI_SAPLMRMH</ORG_MAIN_NAME>
+    <PROGRAMNAME>OIA_SI_SAPLMRMH</PROGRAMNAME>
+   </ORIGINAL_OBJECT>
+   <ENHANCEMENTS>
+    <ENH_HOOK_IMPL>
+     <PROGRAMNAME>OIA_SI_SAPLMRMH</PROGRAMNAME>
+     <ENHMODE>D</ENHMODE>
+     <FULL_NAME>\PR:SAPLMRMH\EX:MRM_INVOICE_CREATE_02\EN:OIA_SI_SAPLMRMH\SE:END\EI</FULL_NAME>
+     <SOURCE>
+      <item>*IF sy-tcode EQ &apos;ZHMS_MONITOR&apos; OR sy-cprog EQ &apos;SAPLZHMS_FG_MONITOR&apos;.</item>
+      <item/>
+      <item>EXPORT e_rbkpv t_bset TO MEMORY ID &apos;ZCFG_ENH_MIRO&apos;.</item>
+      <item/>
+      <item>PERFORM f_enhancement_miro IN PROGRAM zhom_taxmiro IF FOUND TABLES t_drseg.</item>
+      <item/>
+      <item>IMPORT e_rbkpv t_bset FROM MEMORY ID &apos;ZCFG_ENH_MIRO&apos;.</item>
+      <item/>
+      <item>FREE MEMORY ID &apos;ZCFG_ENH_MIRO&apos;.</item>
+      <item/>
+      <item>CALL FUNCTION &apos;MRM_FINAL_CHECK&apos;</item>
+      <item>EXPORTING</item>
+      <item>i_rbkpv        = e_rbkpv</item>
+      <item>IMPORTING</item>
+      <item>e_rbkpv        = e_rbkpv</item>
+      <item>e_sktobas_incl = h_sktobas_brutto</item>
+      <item>e_sktobas_excl = h_sktobas_netto</item>
+      <item>e_skonto_incl  = h_skonto_brutto</item>
+      <item>e_skonto_excl  = h_skonto_netto</item>
+      <item>e_skonto_bnk   = h_skonto_bnk</item>
+      <item>e_fwste        = h_fwste</item>
+      <item>e_fwnav        = h_fwnav</item>
+      <item>e_nav_bnk      = h_nav_bnk</item>
+      <item>e_skv_nav_sum  = h_skv_nav_sum</item>
+      <item>e_xunklfeh     = f_xunklfeh</item>
+      <item>TABLES</item>
+      <item>t_drseg        = t_drseg</item>
+      <item>t_rskof        = t_rskof</item>
+      <item>t_bset         = t_bset</item>
+      <item>t_txtemp       = xtxtemp</item>
+      <item>t_kuerz_bset   = kuerz_bset</item>
+      <item>t_rirk         = rkatab</item>
+      <item>t_errprot      = t_errprot</item>
+      <item>CHANGING</item>
+      <item>c_ret          = t_retention                    &quot;retention</item>
+      <item>EXCEPTIONS</item>
+      <item>OTHERS         = 1.</item>
+      <item/>
+      <item>IF sy-subrc &lt;&gt; 0.</item>
+      <item>makro_message_sysvar.</item>
+      <item>ENDIF.</item>
+      <item/>
+      <item>ENDIF.</item>
+     </SOURCE>
+     <PARENT_FULL_NAME>\PR:SAPLMRMH\EX:MRM_INVOICE_CREATE_02</PARENT_FULL_NAME>
+    </ENH_HOOK_IMPL>
+   </ENHANCEMENTS>
+   <SPACES>
+    <item>
+     <FULL_NAME>\PR:SAPLMRMH\EX:MRM_INVOICE_CREATE_02\EN:OIA_SI_SAPLMRMH\SE:END\EI</FULL_NAME>
+     <SPACES>
+      <item>0</item>
+      <item>0</item>
+      <item>2</item>
+      <item>0</item>
+      <item>2</item>
+      <item>0</item>
+      <item>2</item>
+      <item>0</item>
+      <item>2</item>
+      <item>0</item>
+      <item>2</item>
+      <item>4</item>
+      <item>6</item>
+      <item>4</item>
+      <item>6</item>
+      <item>6</item>
+      <item>6</item>
+      <item>6</item>
+      <item>6</item>
+      <item>6</item>
+      <item>6</item>
+      <item>6</item>
+      <item>6</item>
+      <item>6</item>
+      <item>6</item>
+      <item>4</item>
+      <item>6</item>
+      <item>6</item>
+      <item>6</item>
+      <item>6</item>
+      <item>6</item>
+      <item>6</item>
+      <item>6</item>
+      <item>4</item>
+      <item>6</item>
+      <item>4</item>
+      <item>6</item>
+      <item>0</item>
+      <item>2</item>
+      <item>4</item>
+      <item>2</item>
+      <item>0</item>
+      <item>0</item>
+     </SPACES>
+    </item>
+   </SPACES>
+  </asx:values>
+ </asx:abap>
+</abapGit>

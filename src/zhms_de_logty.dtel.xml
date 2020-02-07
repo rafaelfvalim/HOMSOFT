@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZHMS_DE_LOGTY</ROLLNAME>
+    <DDLANGUAGE>P</DDLANGUAGE>
+    <DOMNAME>SYCHAR01</DOMNAME>
+    <HEADLEN>07</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>30</SCRLEN3>
+    <DDTEXT>Tipo de mensagem</DDTEXT>
+    <REPTEXT>CgMens</REPTEXT>
+    <SCRTEXT_S>Tp.mensag.</SCRTEXT_S>
+    <SCRTEXT_M>Tipo de mensagem</SCRTEXT_M>
+    <SCRTEXT_L>Tipo de mensagem</SCRTEXT_L>
+    <APPLCLASS>SYST</APPLCLASS>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>D</LANGU>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>W</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>消息，消息类型</DDTEXT>
+     <REPTEXT>信息类</REPTEXT>
+     <SCRTEXT_S>消息类型</SCRTEXT_S>
+     <SCRTEXT_M>信息类型 (E,I,W..)</SCRTEXT_M>
+     <SCRTEXT_L>信息类型(E,I,W,...)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <REPTEXT>Msg.typ</REPTEXT>
+     <SCRTEXT_M>ปภ.ข้อความ(E,I,W..)</SCRTEXT_M>
+     <SCRTEXT_L>ประเภทข้อความ (E,I,W..)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <REPTEXT>Msg.typ</REPTEXT>
+     <SCRTEXT_S>메세지유형</SCRTEXT_S>
+     <SCRTEXT_M>메세지유형 (E,I,W..)</SCRTEXT_M>
+     <SCRTEXT_L>메세지유형 (E,I,W,...)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <REPTEXT>Tip por</REPTEXT>
+     <SCRTEXT_S>Tip poruke</SCRTEXT_S>
+     <SCRTEXT_M>Tip por. (E,I,W..)</SCRTEXT_M>
+     <SCRTEXT_L>Tip poruke (E,I.W,...)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <SCRTEXT_S>סוג הודעה</SCRTEXT_S>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Typ zprávy</DDTEXT>
+     <REPTEXT>Typ zpr</REPTEXT>
+     <SCRTEXT_S>Typ zprávy</SCRTEXT_S>
+     <SCRTEXT_M>Typ zprávy</SCRTEXT_M>
+     <SCRTEXT_L>Typ zprávy</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Nachrichtentyp</DDTEXT>
+     <REPTEXT>Msg-Typ</REPTEXT>
+     <SCRTEXT_S>Messagetyp</SCRTEXT_S>
+     <SCRTEXT_M>Nachrichtentyp</SCRTEXT_M>
+     <SCRTEXT_L>Nachrichtentyp</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Message Type</DDTEXT>
+     <REPTEXT>Msg.typ</REPTEXT>
+     <SCRTEXT_S>Msg. type</SCRTEXT_S>
+     <SCRTEXT_M>Message Type</SCRTEXT_M>
+     <SCRTEXT_L>Message Type</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Type de message</DDTEXT>
+     <REPTEXT>TypeMsg</REPTEXT>
+     <SCRTEXT_S>Type msg</SCRTEXT_S>
+     <SCRTEXT_M>Type de message</SCRTEXT_M>
+     <SCRTEXT_L>Type de message</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Üzenettípus</DDTEXT>
+     <REPTEXT>Üz.típ.</REPTEXT>
+     <SCRTEXT_S>Üzen.típ.</SCRTEXT_S>
+     <SCRTEXT_M>Üzenettípus</SCRTEXT_M>
+     <SCRTEXT_L>Üzenettípus</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Categoria messaggio</DDTEXT>
+     <REPTEXT>Tp.msg.</REPTEXT>
+     <SCRTEXT_S>TpoMessag.</SCRTEXT_S>
+     <SCRTEXT_M>Categoria messaggio</SCRTEXT_M>
+     <SCRTEXT_L>Categoria messaggio</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>メッセージタイプ</DDTEXT>
+     <REPTEXT>MSG-Typ</REPTEXT>
+     <SCRTEXT_S>Msg タイプ</SCRTEXT_S>
+     <SCRTEXT_M>メッセージタイプ</SCRTEXT_M>
+     <SCRTEXT_L>メッセージタイプ</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Typ komunikatu</DDTEXT>
+     <REPTEXT>Typ km.</REPTEXT>
+     <SCRTEXT_S>Typ komun.</SCRTEXT_S>
+     <SCRTEXT_M>Typ komunikatu</SCRTEXT_M>
+     <SCRTEXT_L>Typ komunikatu</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>訊息，訊息類型</DDTEXT>
+     <REPTEXT>訊息型</REPTEXT>
+     <SCRTEXT_S>訊息類型</SCRTEXT_S>
+     <SCRTEXT_M>訊息類型 (E,I,W..)</SCRTEXT_M>
+     <SCRTEXT_L>訊息類型 (E,I,W,...)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Meldingstype</DDTEXT>
+     <REPTEXT>MelType</REPTEXT>
+     <SCRTEXT_S>Meld.type</SCRTEXT_S>
+     <SCRTEXT_M>Meldingstype</SCRTEXT_M>
+     <SCRTEXT_L>Meldingstype</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Typ správy</DDTEXT>
+     <REPTEXT>TypSpr</REPTEXT>
+     <SCRTEXT_S>Typ správy</SCRTEXT_S>
+     <SCRTEXT_M>Typ správy</SCRTEXT_M>
+     <SCRTEXT_L>Typ správy</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Тип сообщения</DDTEXT>
+     <REPTEXT>Т/Сообщ</REPTEXT>
+     <SCRTEXT_S>Т/сообщен.</SCRTEXT_S>
+     <SCRTEXT_M>Тип сообщения</SCRTEXT_M>
+     <SCRTEXT_L>Тип сообщения</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Tipo de mensaje</DDTEXT>
+     <REPTEXT>Tp.mje.</REPTEXT>
+     <SCRTEXT_S>Tp.mensaje</SCRTEXT_S>
+     <SCRTEXT_M>Tipo de mensaje</SCRTEXT_M>
+     <SCRTEXT_L>Tipo de mensaje</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <DDTEXT>Съобщения, вид съобщение</DDTEXT>
+     <REPTEXT>ВидСъоб</REPTEXT>
+     <SCRTEXT_S>Тип съоб.</SCRTEXT_S>
+     <SCRTEXT_M>Вид съобщ. (E,I,W..)</SCRTEXT_M>
+     <SCRTEXT_L>Вид съобщение (E,I,W,...)</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_LOGTY</OBJECT>
+      <LANGU>C</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00001</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_LOGTY</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>C</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Třída zpráv po příkazu &lt;AB&gt;MESSAGE&lt;/&gt;.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_LOGTY</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00001</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_LOGTY</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Nachrichtentyp nach der Anweisung &lt;AB&gt;MESSAGE&lt;/&gt;.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_LOGTY</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00001</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_LOGTY</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Message type after the statement &lt;AB&gt;MESSAGE&lt;/&gt;.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_LOGTY</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00001</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_LOGTY</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Type de message après l&apos;instruction &lt;AB&gt;MESSAGE&lt;/&gt;.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_LOGTY</OBJECT>
+      <LANGU>I</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00001</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_LOGTY</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>I</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Tipo di messaggio secondo l&apos;istruzione &lt;AB&gt;MESSAGE&lt;/&gt;.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_LOGTY</OBJECT>
+      <LANGU>J</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00001</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_LOGTY</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>J</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;AB&gt;MESSAGE&lt;/&gt; 命令の後のメッセージタイプ</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_LOGTY</OBJECT>
+      <LANGU>P</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00001</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_LOGTY</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>P</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Tipo de mensagem segundo a instrução &lt;AB&gt;MESSAGE&lt;/&gt;.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_LOGTY</OBJECT>
+      <LANGU>S</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00001</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_LOGTY</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>S</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Tipo de mensaje según la sentencia &lt;AB&gt;MESSAGE&lt;/&gt;.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

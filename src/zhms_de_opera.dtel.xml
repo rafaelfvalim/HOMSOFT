@@ -1,0 +1,728 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZHMS_DE_OPERA</ROLLNAME>
+    <DDLANGUAGE>P</DDLANGUAGE>
+    <DOMNAME>OP_CODE2</DOMNAME>
+    <HEADLEN>02</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Operador relacional</DDTEXT>
+    <REPTEXT>Op</REPTEXT>
+    <SCRTEXT_S>Operador</SCRTEXT_S>
+    <SCRTEXT_M>Operador relac.</SCRTEXT_M>
+    <SCRTEXT_L>Operador relacional</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>A</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>D</LANGU>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>G</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+    <LANGU>W</LANGU>
+    <LANGU>d</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>关系运算符</DDTEXT>
+     <REPTEXT>Op</REPTEXT>
+     <SCRTEXT_S>运算符</SCRTEXT_S>
+     <SCRTEXT_M>比较运算符</SCRTEXT_M>
+     <SCRTEXT_L>关系运算符</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>ตัวดำเนินการเกี่ยวกับความสัมพันธ์</DDTEXT>
+     <REPTEXT>Op</REPTEXT>
+     <SCRTEXT_S>Operator</SCRTEXT_S>
+     <SCRTEXT_M>Comp.operator</SCRTEXT_M>
+     <SCRTEXT_L>ตัวดำเนินการเทียบ</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>관계연산자</DDTEXT>
+     <REPTEXT>Op</REPTEXT>
+     <SCRTEXT_S>연산자</SCRTEXT_S>
+     <SCRTEXT_M>비교연산자</SCRTEXT_M>
+     <SCRTEXT_L>관계연산자</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>Operator relaţional</DDTEXT>
+     <REPTEXT>Op</REPTEXT>
+     <SCRTEXT_S>Operator</SCRTEXT_S>
+     <SCRTEXT_M>Operator comp.</SCRTEXT_M>
+     <SCRTEXT_L>Operator relaţional</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DDTEXT>Primerjalni operator</DDTEXT>
+     <REPTEXT>Op</REPTEXT>
+     <SCRTEXT_S>Operator</SCRTEXT_S>
+     <SCRTEXT_M>Primer.operator</SCRTEXT_M>
+     <SCRTEXT_L>Primerjalni operator</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>Operator odnosa</DDTEXT>
+     <REPTEXT>Op</REPTEXT>
+     <SCRTEXT_S>Operator</SCRTEXT_S>
+     <SCRTEXT_M>Operat.uspored.</SCRTEXT_M>
+     <SCRTEXT_L>Operator odnosa</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>A</DDLANGUAGE>
+     <DDTEXT>مشغل المقارنة</DDTEXT>
+     <REPTEXT>Op</REPTEXT>
+     <SCRTEXT_S>مشغل</SCRTEXT_S>
+     <SCRTEXT_M>مشغل المقارنة</SCRTEXT_M>
+     <SCRTEXT_L>مشغل المقارنة</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>אופרטור יחסי</DDTEXT>
+     <REPTEXT>Op</REPTEXT>
+     <SCRTEXT_S>מפעיל</SCRTEXT_S>
+     <SCRTEXT_M>מפעיל השוואה</SCRTEXT_M>
+     <SCRTEXT_L>אופרטור יחסי</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Relační operátor</DDTEXT>
+     <REPTEXT>Op</REPTEXT>
+     <SCRTEXT_S>Operátor</SCRTEXT_S>
+     <SCRTEXT_M>Relač.operátor</SCRTEXT_M>
+     <SCRTEXT_L>Relační operátor</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Vergleichsoperator</DDTEXT>
+     <REPTEXT>Op</REPTEXT>
+     <SCRTEXT_S>Operator</SCRTEXT_S>
+     <SCRTEXT_M>VerglOperator</SCRTEXT_M>
+     <SCRTEXT_L>Vergleichsoperator</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Relational Operator</DDTEXT>
+     <REPTEXT>Op</REPTEXT>
+     <SCRTEXT_S>Operator</SCRTEXT_S>
+     <SCRTEXT_M>Comp.operator</SCRTEXT_M>
+     <SCRTEXT_L>Relational Operator</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Opérateur relationnel</DDTEXT>
+     <REPTEXT>Op</REPTEXT>
+     <SCRTEXT_S>Opérateur</SCRTEXT_S>
+     <SCRTEXT_M>Opér. relation.</SCRTEXT_M>
+     <SCRTEXT_L>Opérat. relationnel</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>G</DDLANGUAGE>
+     <DDTEXT>Σχετικός Τελεστής</DDTEXT>
+     <REPTEXT>Op</REPTEXT>
+     <SCRTEXT_S>Τελεστής</SCRTEXT_S>
+     <SCRTEXT_M>Χειρ.σύγκρισης</SCRTEXT_M>
+     <SCRTEXT_L>Σχετικός Τελεστής</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Összehasonlító operátor</DDTEXT>
+     <REPTEXT>Op</REPTEXT>
+     <SCRTEXT_S>Operátor</SCRTEXT_S>
+     <SCRTEXT_M>ÖsszehasOperát.</SCRTEXT_M>
+     <SCRTEXT_L>Összehasonl.operátor</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Operatore di confronto</DDTEXT>
+     <REPTEXT>OP</REPTEXT>
+     <SCRTEXT_S>Operatore</SCRTEXT_S>
+     <SCRTEXT_M>Operat.confr.</SCRTEXT_M>
+     <SCRTEXT_L>Operatore di confr.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>比較演算子</DDTEXT>
+     <REPTEXT>Op</REPTEXT>
+     <SCRTEXT_S>演算子</SCRTEXT_S>
+     <SCRTEXT_M>比較演算子</SCRTEXT_M>
+     <SCRTEXT_L>比較演算子</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>Sammenligningsoperator</DDTEXT>
+     <REPTEXT>Op</REPTEXT>
+     <SCRTEXT_S>Operator</SCRTEXT_S>
+     <SCRTEXT_M>Sm.lign.oper.</SCRTEXT_M>
+     <SCRTEXT_L>Sammenligningsoper.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Operator porównania</DDTEXT>
+     <REPTEXT>Op</REPTEXT>
+     <SCRTEXT_S>Operator</SCRTEXT_S>
+     <SCRTEXT_M>Oper. porów.</SCRTEXT_M>
+     <SCRTEXT_L>Operator porównania</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>關係運算子</DDTEXT>
+     <REPTEXT>Op</REPTEXT>
+     <SCRTEXT_S>運算子</SCRTEXT_S>
+     <SCRTEXT_M>關係運算子</SCRTEXT_M>
+     <SCRTEXT_L>關係運算子</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Vergelijkingsoperator</DDTEXT>
+     <REPTEXT>Op</REPTEXT>
+     <SCRTEXT_S>Operator</SCRTEXT_S>
+     <SCRTEXT_M>Vergel.operator</SCRTEXT_M>
+     <SCRTEXT_L>Vergelijk.operator</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>Sammenligningsoperator</DDTEXT>
+     <REPTEXT>Op</REPTEXT>
+     <SCRTEXT_S>Operator</SCRTEXT_S>
+     <SCRTEXT_M>Sml.operator</SCRTEXT_M>
+     <SCRTEXT_L>Sml.operator</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Relačný operátor</DDTEXT>
+     <REPTEXT>Op</REPTEXT>
+     <SCRTEXT_S>Operátor</SCRTEXT_S>
+     <SCRTEXT_M>Relač.operátor</SCRTEXT_M>
+     <SCRTEXT_L>Relačný operátor</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Оператор сравнения</DDTEXT>
+     <REPTEXT>Оп</REPTEXT>
+     <SCRTEXT_S>Оператор</SCRTEXT_S>
+     <SCRTEXT_M>ОператСравнения</SCRTEXT_M>
+     <SCRTEXT_L>Оператор сравнения</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Operador relacional</DDTEXT>
+     <REPTEXT>Op</REPTEXT>
+     <SCRTEXT_S>Operador</SCRTEXT_S>
+     <SCRTEXT_M>Operador relac.</SCRTEXT_M>
+     <SCRTEXT_L>Operador relacional</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Karşılaştırma işleci</DDTEXT>
+     <REPTEXT>İş</REPTEXT>
+     <SCRTEXT_S>İşleç</SCRTEXT_S>
+     <SCRTEXT_M>Krşlt.işleci</SCRTEXT_M>
+     <SCRTEXT_L>Karşılaştırma işleci</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Vertailuoperaattori</DDTEXT>
+     <REPTEXT>Op</REPTEXT>
+     <SCRTEXT_S>Operaatt.</SCRTEXT_S>
+     <SCRTEXT_M>Vrt.operaatt.</SCRTEXT_M>
+     <SCRTEXT_L>Vertailuoperaattori</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Relationsoperator</DDTEXT>
+     <REPTEXT>Op</REPTEXT>
+     <SCRTEXT_S>Operator</SCRTEXT_S>
+     <SCRTEXT_M>Jämf.operator</SCRTEXT_M>
+     <SCRTEXT_L>Relationsoperator</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <DDTEXT>Оператор на сравнения</DDTEXT>
+     <REPTEXT>Оп</REPTEXT>
+     <SCRTEXT_S>Оператор</SCRTEXT_S>
+     <SCRTEXT_M>Операт.сравнен.</SCRTEXT_M>
+     <SCRTEXT_L>Оператор сравнения</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DDTEXT>Operater odnosa</DDTEXT>
+     <REPTEXT>Op</REPTEXT>
+     <SCRTEXT_S>Operater</SCRTEXT_S>
+     <SCRTEXT_M>Operator upor.</SCRTEXT_M>
+     <SCRTEXT_L>Operater odnosa</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_OPERA</OBJECT>
+      <LANGU>1</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00002</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_OPERA</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>1</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>用于比较字段内容和比较值的操作者。</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>EQ - 检查指定的字段的内容以确定是否它比较值相等。</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_OPERA</OBJECT>
+      <LANGU>C</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00003</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_OPERA</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>C</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Operátor k porovnání obsahu pole se srovnávací hodnotou.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>EQ - Obsah zadaného pole se kontroluje kvůli rovnosti se srovnávací</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>hodnotou.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_OPERA</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00003</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_OPERA</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Operator zum Vergleich des Feldinhaltes mit dem Vergleichswert.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>EQ - Der Inhalt des angegebenen Feldes wird auf Gleichheit mit dem</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Vergleichswert geprüft.</TDLINE>
+      </TLINE>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_OPERA</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00003</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_OPERA</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Operator used to compare the field contents with the comparison value.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>EQ - The content of the specified field is checked to determine whether</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>or not it is equal to the comparison value.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_OPERA</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00004</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_OPERA</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Opérateur utilisé pour comparer le contenu de la zone avec la valeur</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>comparative.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>EQ - Le système vérifie si le contenu de la zone indiquée est identique</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>à la valeur comparative.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_OPERA</OBJECT>
+      <LANGU>I</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00004</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_OPERA</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>I</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Operatore per confrontare il contenuto del campo con il valore di</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>confronto.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>EQ - Viene verificata la corrispondenza tra il contenuto del campo</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>indicato e il valore di confronto.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_OPERA</OBJECT>
+      <LANGU>J</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00003</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_OPERA</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>J</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>項目内容を比較値と比較する際に使用する演算子です。</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>EQ - 指定した項目の内容をチェックして、比較値とイコールであるかどうかを</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>判断します。</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_OPERA</OBJECT>
+      <LANGU>N</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00004</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_OPERA</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>N</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Operator voor de vergelijking van de veldinhoud met de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>vergelijkingswaarde.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>EQ - Er wordt gecontroleerd of de inhoud van het opgegeven veld gelijk</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>is aan de vergelijkingswaarde.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_OPERA</OBJECT>
+      <LANGU>P</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00004</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_OPERA</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>P</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Operador para a comparação do conteúdo de campo com o valor de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>comparação.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>EQ - O conteúdo do campo indicado é verificado em relação à igualdade</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>com o valor de comparação.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_OPERA</OBJECT>
+      <LANGU>S</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00004</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_OPERA</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>S</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Operador para comparación del contenido de campo con el valor de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>comparación.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>EQ - El contenido del campo especificado se verifica en función de su</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>igualdad con el valor de comparación.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

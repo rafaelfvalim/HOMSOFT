@@ -1,0 +1,449 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZHMS_DE_VLDNO</ROLLNAME>
+    <DDLANGUAGE>P</DDLANGUAGE>
+    <DOMNAME>SYMSGNO</DOMNAME>
+    <HEADLEN>07</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Nº mensagem</DDTEXT>
+    <REPTEXT>NºMens.</REPTEXT>
+    <SCRTEXT_S>NºMensagem</SCRTEXT_S>
+    <SCRTEXT_M>Nº mensagem</SCRTEXT_M>
+    <SCRTEXT_L>Nº mensagem</SCRTEXT_L>
+    <APPLCLASS>SYST</APPLCLASS>
+    <DTELMASTER>D</DTELMASTER>
+    <DEFFDNAME>MESSAGE_NUMBER</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>D</LANGU>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>W</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>消息, 消息编号</DDTEXT>
+     <REPTEXT>消息号</REPTEXT>
+     <SCRTEXT_S>  信息号</SCRTEXT_S>
+     <SCRTEXT_M>消息编号</SCRTEXT_M>
+     <SCRTEXT_L>消息编号</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <REPTEXT>เลขที่</REPTEXT>
+     <SCRTEXT_S>เลขที่ Msg</SCRTEXT_S>
+     <SCRTEXT_M>เลขที่ข้อความ</SCRTEXT_M>
+     <SCRTEXT_L>เลขที่ข้อความ</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <SCRTEXT_S>메세지번호</SCRTEXT_S>
+     <SCRTEXT_M>메세지번호</SCRTEXT_M>
+     <SCRTEXT_L>메세지번호</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>Poruke, Broj poruke</DDTEXT>
+     <REPTEXT>Br.por.</REPTEXT>
+     <SCRTEXT_S>Br. poruke</SCRTEXT_S>
+     <SCRTEXT_M>Broj poruke</SCRTEXT_M>
+     <SCRTEXT_L>Broj poruke</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>הודעות, מספר הודעה</DDTEXT>
+     <SCRTEXT_S>מספר הודעה</SCRTEXT_S>
+     <SCRTEXT_M>מספר הודעה</SCRTEXT_M>
+     <SCRTEXT_L>מספר הודעה</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Číslo zprávy</DDTEXT>
+     <REPTEXT>Č.zpr.</REPTEXT>
+     <SCRTEXT_S>Č.zprávy</SCRTEXT_S>
+     <SCRTEXT_M>Číslo zprávy</SCRTEXT_M>
+     <SCRTEXT_L>Číslo zprávy</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Nachrichtennummer</DDTEXT>
+     <REPTEXT>Msg-Nr.</REPTEXT>
+     <SCRTEXT_S>Message-Nr</SCRTEXT_S>
+     <SCRTEXT_M>Nachrichtennummer</SCRTEXT_M>
+     <SCRTEXT_L>Nachrichtennummer</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Message Number</DDTEXT>
+     <REPTEXT>Msg.No.</REPTEXT>
+     <SCRTEXT_S>Message No</SCRTEXT_S>
+     <SCRTEXT_M>Message Number</SCRTEXT_M>
+     <SCRTEXT_L>Message Number</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Numéro du message</DDTEXT>
+     <REPTEXT>Nº msg</REPTEXT>
+     <SCRTEXT_S>Nº message</SCRTEXT_S>
+     <SCRTEXT_M>Numéro du message</SCRTEXT_M>
+     <SCRTEXT_L>Numéro du message</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Üzenet száma</DDTEXT>
+     <REPTEXT>Üz.sz.</REPTEXT>
+     <SCRTEXT_S>Üzenetszám</SCRTEXT_S>
+     <SCRTEXT_M>Üzenetszám</SCRTEXT_M>
+     <SCRTEXT_L>Üzenetszám</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Numero messaggio</DDTEXT>
+     <REPTEXT>N.mess.</REPTEXT>
+     <SCRTEXT_S>N. mess.</SCRTEXT_S>
+     <SCRTEXT_M>Numero messaggio</SCRTEXT_M>
+     <SCRTEXT_L>Numero messaggio</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>メッセージ番号</DDTEXT>
+     <REPTEXT>Msg no.</REPTEXT>
+     <SCRTEXT_S>Message no</SCRTEXT_S>
+     <SCRTEXT_M>メッセージ番号</SCRTEXT_M>
+     <SCRTEXT_L>メッセージ番号</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Numer komunikatu</DDTEXT>
+     <REPTEXT>Nr kom.</REPTEXT>
+     <SCRTEXT_S>Nr komun.</SCRTEXT_S>
+     <SCRTEXT_M>Numer komunikatu</SCRTEXT_M>
+     <SCRTEXT_L>Numer komunikatu</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>訊息，訊息號碼</DDTEXT>
+     <SCRTEXT_S>訊息號碼</SCRTEXT_S>
+     <SCRTEXT_M>訊息號碼</SCRTEXT_M>
+     <SCRTEXT_L>訊息號碼</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Meldingsnummer</DDTEXT>
+     <REPTEXT>Meld.nr</REPTEXT>
+     <SCRTEXT_S>Meldingsnr</SCRTEXT_S>
+     <SCRTEXT_M>Meldingsnummer</SCRTEXT_M>
+     <SCRTEXT_L>Meldingsnummer</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Číslo správy</DDTEXT>
+     <REPTEXT>Čís.sp.</REPTEXT>
+     <SCRTEXT_S>Č.správy</SCRTEXT_S>
+     <SCRTEXT_M>Číslo správy</SCRTEXT_M>
+     <SCRTEXT_L>Číslo správy</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Номер сообщения</DDTEXT>
+     <REPTEXT>№Сообщ</REPTEXT>
+     <SCRTEXT_S>№ сообщен.</SCRTEXT_S>
+     <SCRTEXT_M>Номер сообщения</SCRTEXT_M>
+     <SCRTEXT_L>Номер сообщения</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Número de mensaje</DDTEXT>
+     <REPTEXT>Nº mje.</REPTEXT>
+     <SCRTEXT_S>Nº mensaje</SCRTEXT_S>
+     <SCRTEXT_M>Nº mensaje</SCRTEXT_M>
+     <SCRTEXT_L>Nº de mensaje</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <DDTEXT>Съобщения, номер на съобщение</DDTEXT>
+     <REPTEXT>№ съоб.</REPTEXT>
+     <SCRTEXT_S>Ном.съоб.</SCRTEXT_S>
+     <SCRTEXT_M>Номер съобщение</SCRTEXT_M>
+     <SCRTEXT_L>Номер съобщение</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_VLDNO</OBJECT>
+      <LANGU>C</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <TXTLINES>00001</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_VLDNO</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>C</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Třída zpráv po příkazu &lt;AB&gt;MESSAGE&lt;/&gt;.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_VLDNO</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00001</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_VLDNO</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Nachrichtennummer nach der Anweisung &lt;AB&gt;MESSAGE&lt;/&gt;.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_VLDNO</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <TXTLINES>00001</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_VLDNO</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Message number after the statement &lt;AB&gt;MESSAGE&lt;/&gt;.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_VLDNO</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <TXTLINES>00001</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_VLDNO</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Numéro de message après l&apos;instruction &lt;AB&gt;MESSAGE&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_VLDNO</OBJECT>
+      <LANGU>I</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <TXTLINES>00001</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_VLDNO</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>I</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Numero di un messaggio secondo l&apos;istruzione &lt;AB&gt;MESSAGE&lt;/&gt;.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_VLDNO</OBJECT>
+      <LANGU>J</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <TXTLINES>00001</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_VLDNO</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>J</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;AB&gt;MESSAGE&lt;/&gt; 命令の後のメッセージ番号</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_VLDNO</OBJECT>
+      <LANGU>P</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <TXTLINES>00001</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_VLDNO</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>P</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Número da mensagem segundo a instrução &lt;AB&gt;MESSAGE&lt;/&gt;.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZHMS_DE_VLDNO</OBJECT>
+      <LANGU>S</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <TXTLINES>00001</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHMS_DE_VLDNO</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>S</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Número de mensaje según la sentencia &lt;AB&gt;MESSAGE&lt;/&gt;.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

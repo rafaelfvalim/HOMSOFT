@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZHMS_MC_MONITOR</ARBGB>
+    <MASTERLANG>P</MASTERLANG>
+    <STEXT>HomSoft: Classe de mensagens para o Monitor</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_MONITOR</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_MONITOR</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Tela de Seleção Inexistente. Contatar Suporte.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_MONITOR</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Erro ao montar a Tela de Seleção. Contatar Suporte.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_MONITOR</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Portaria cancelada com sucesso!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_MONITOR</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Conferência cancelada com sucesso!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_MONITOR</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Quantidade do documento &amp; não atingida! Total atribuído: &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_MONITOR</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>Preço do documento &amp; incorreto! Total atribuído: &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_MONITOR</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>Atribuição registrada com sucesso!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_MONITOR</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>Informar valor para Tipo de documento SAP de referência</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_MONITOR</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>Informar Número do documento SAP de referência</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_MONITOR</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>Informar Item do documento SAP de referência</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_MONITOR</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>Pedido de compra &amp; não encontrado no sistema!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_MONITOR</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>Fornecedor &amp; do pedido de compra &amp; não equivalente ao documento (&amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_MONITOR</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>Cenário não encontrado. Atribuição gravada.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_MONITOR</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>Justificativa deve conter no mínimo 15 caracteres</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_MONITOR</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>Limite de caratectes da justificativa (&amp;) excedido!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_MONITOR</ARBGB>
+     <MSGNR>062</MSGNR>
+     <TEXT>Evento enviado com sucesso!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_MONITOR</ARBGB>
+     <MSGNR>063</MSGNR>
+     <TEXT>Documento de estorno &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_MONITOR</ARBGB>
+     <MSGNR>064</MSGNR>
+     <TEXT>Informar uma Data ou o número do Lote.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_MONITOR</ARBGB>
+     <MSGNR>065</MSGNR>
+     <TEXT>Campo Justificativa Obrigatório</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_MONITOR</ARBGB>
+     <MSGNR>066</MSGNR>
+     <TEXT>Processo já foi finalizado, documento já foi criado</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_MONITOR</ARBGB>
+     <MSGNR>067</MSGNR>
+     <TEXT>Obrigatório selecionar as linhas a serem modificadas</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_MONITOR</ARBGB>
+     <MSGNR>068</MSGNR>
+     <TEXT>Erro de validação. Favor analisar.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_MONITOR</ARBGB>
+     <MSGNR>069</MSGNR>
+     <TEXT>Origem do material do XML difere do Pedido de Compra</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_MONITOR</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>Documento não se encontra na etapa correspondente!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_MONITOR</ARBGB>
+     <MSGNR>500</MSGNR>
+     <TEXT>Documento aguardando liberação por QM</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZHMS_MC_MONITOR</ARBGB>
+     <MSGNR>501</MSGNR>
+     <TEXT>Documento validado e liberado por QM</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZHMS_MC_MONITOR</ARBGB>
+     <STEXT>HomSoft: Message Class for the Monitor</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZHMS_MC_MONITOR</ARBGB>
+     <STEXT>HomSoft: Clase de mensajes para el monitor</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Inexistent Selection Screen. Contact Support.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Error while assembling Selection Screen. Contact Support.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Concierge canceled successfully!</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Conference canceled successfully!</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Document quantity &amp; not reached! Total Assigned: &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Document price &amp; not reached! Total Assigned: &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Assignment successfully registered!</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Report value for SAP reference document type</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Inform Reference SAP Document Number</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Inform SAP document reference document</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Purchase Order &amp; not found on system!</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Supplier &amp; Purchase Order &amp; Non-Equivalent to Document (&amp;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Scenario not found. Assignment saved.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Rationale must contain at least 15 characters</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Limit of justification (&amp;) caratctes exceeded!</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Event successfully sent!</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Document of reversal &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>Enter a Date or Batch number.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Field Justification Required</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Process has already been finalized, a document has already</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>Required to select rows to modify</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>Validation error. Please review.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>XML material source differs from Purchase Order</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>500</MSGNR>
+     <TEXT>Document awaiting release by QM</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>501</MSGNR>
+     <TEXT>Document validated and released by QM</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Pantalla de selección inexistente. Contacta con Soporte.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Error al montar la pantalla de selección. Contacta con Soporte.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>¡La cancelación de la cancelación con éxito!</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Conferencia cancelada con éxito!</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Cantidad del documento &amp; no alcanzada! Total asignado: &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Precio del documento &amp; no alcanzado! Total asignado: &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Asignación registrada con éxito!</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Informar de valor a Tipo de documento SAP de referencia</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Indicar Número de documento SAP de referencia</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Indicar el elemento del documento SAP de referencia</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Pedido de compra &amp; no encontrado en el sistema!</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Proveedor &amp; del pedido de compra &amp; no equivalente al documento (&amp;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Escenario no encontrado. Asignación grabada.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Justificación debe contener al menos 15 caracteres</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Límite de caratectes de la justificación (&amp;) excedido!</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Evento enviado con éxito!</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Documento de anulación &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>Indicar una fecha o el número del lote.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Campo Justificante Obligatorio</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>El proceso ya ha finalizado, ya se ha creado el documento</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>Obligatorio seleccionar las líneas a modificar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>Error de validación Por favor revise.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>La fuente de material XML difiere de la orden de compra</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>500</MSGNR>
+     <TEXT>Documento pendiente de liberación por QM]</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>501</MSGNR>
+     <TEXT>Documento validado y liberado por QM</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

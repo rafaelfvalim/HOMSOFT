@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZHMS_PARTNER</ROLLNAME>
+    <DDLANGUAGE>P</DDLANGUAGE>
+    <DOMNAME>J_1BPARID</DOMNAME>
+    <HEADLEN>10</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Identificação do parceiro (cliente, fornecedor, loc.negócio)</DDTEXT>
+    <REPTEXT>ID parc.</REPTEXT>
+    <SCRTEXT_S>ID parc.</SCRTEXT_S>
+    <SCRTEXT_M>ID parceiro</SCRTEXT_M>
+    <SCRTEXT_L>ID parceiro</SCRTEXT_L>
+    <DTELMASTER>P</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Partner ID (Customer, Vendor, Business Place)</DDTEXT>
+     <REPTEXT>Partner ID</REPTEXT>
+     <SCRTEXT_S>Partner ID</SCRTEXT_S>
+     <SCRTEXT_M>Partner ID</SCRTEXT_M>
+     <SCRTEXT_L>Partner ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Identificación del socio (cliente, proveedor, loc.negocio)</DDTEXT>
+     <REPTEXT>ID socio</REPTEXT>
+     <SCRTEXT_S>ID socio</SCRTEXT_S>
+     <SCRTEXT_M>ID socio</SCRTEXT_M>
+     <SCRTEXT_L>ID socio</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

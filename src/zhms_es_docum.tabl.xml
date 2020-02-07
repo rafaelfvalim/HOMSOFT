@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>ZHMS_ES_DOCUM</TABNAME>
+    <DDLANGUAGE>P</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <DDTEXT>HomSoft: Documento</DDTEXT>
+    <EXCLASS>1</EXCLASS>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <TABNAME>ZHMS_ES_DOCUM</TABNAME>
+     <FIELDNAME>DCTYP</FIELDNAME>
+     <POSITION>0001</POSITION>
+     <ROLLNAME>ZHMS_DE_DCTYP</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <VALEXI>X</VALEXI>
+     <SHLPORIGIN>F</SHLPORIGIN>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <TABNAME>ZHMS_ES_DOCUM</TABNAME>
+     <FIELDNAME>DCNRO</FIELDNAME>
+     <POSITION>0002</POSITION>
+     <ROLLNAME>ZHMS_DE_DCREF</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <TABNAME>ZHMS_ES_DOCUM</TABNAME>
+     <FIELDNAME>CHAVE</FIELDNAME>
+     <POSITION>0003</POSITION>
+     <ROLLNAME>ZHMS_DE_CHAVE</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

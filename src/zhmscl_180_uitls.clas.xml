@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZHMSCL_180_UITLS</CLSNAME>
+    <LANGU>P</LANGU>
+    <DESCRIPT>Utils Relatorio 180 dias</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHMSCL_180_UITLS</CLSNAME>
+     <CMPNAME>CALCULA_DIAS_ATRASO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Calcula dias de atraso</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHMSCL_180_UITLS</CLSNAME>
+     <CMPNAME>FILL_INTERNAL_TABLES</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Filtra as colunas</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHMSCL_180_UITLS</CLSNAME>
+     <CMPNAME>GET_NOTAS_ENVIO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Busca notas de envio</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHMSCL_180_UITLS</CLSNAME>
+     <CMPNAME>GET_NOTAS_ENVIO_DEPARA</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Busca notas de envio pela tabela de-para zhms_tb_doc180</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHMSCL_180_UITLS</CLSNAME>
+     <CMPNAME>GET_NOTAS_RET_CABECALHO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Busca referencias da nota por cabeçalho</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHMSCL_180_UITLS</CLSNAME>
+     <CMPNAME>GET_NOTAS_RET_ITEM</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Busca referencias da nota por item</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHMSCL_180_UITLS</CLSNAME>
+     <CMPNAME>GET_SATUS_NOTA</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Retorna icone de status da nota</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHMSCL_180_UITLS</CLSNAME>
+     <CMPNAME>GET_STATUS_DIAS_ATRASO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Recupera icone de status dos dias de atraso</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHMSCL_180_UITLS</CLSNAME>
+     <CMPNAME>ICO_DIASOK</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela R/2</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHMSCL_180_UITLS</CLSNAME>
+     <CMPNAME>ICO_ESCROK</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela R/2</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHMSCL_180_UITLS</CLSNAME>
+     <CMPNAME>ICO_NOTANOK</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela R/2</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHMSCL_180_UITLS</CLSNAME>
+     <CMPNAME>REMOVE_CANCEL_ITEMS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Remove itens cancelados</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHMSCL_180_UITLS</CLSNAME>
+     <CMPNAME>SELECT_RET_CAB_BY_FIELDS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Seleciona retorno por critério do material</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

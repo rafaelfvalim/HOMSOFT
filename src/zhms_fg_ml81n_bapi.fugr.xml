@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>BAPI para ML81N</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZHMS_FG_ML81N_BAPITOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZHMS_FG_ML81N_BAPI</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>F_ZHMS_ML81N_BAPI</FUNCNAME>
+     <SHORT_TEXT>BAPI da ML81N</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>ZEBELN</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EBELN</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>ZREF_DOC_NO</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>XBLNR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>ZEXT_NUMBER</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>LBLNE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>ZSHORT_TEXT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>TXZ01_ESSR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>ZREL_CODE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BAPIMMPARA-REL_CODE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>MATERIALDOCUMENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BAPIESSR-SHEET_NO</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>MATDOCUMENTYEAR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EKBE-LFGJA</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ZBAPI_RETURN_PO</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>ZBAPI_RETURN_FR</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>ZBAPI_SRV_RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRETURN1</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ZEBELN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nº do documento de compras</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ZREF_DOC_NO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nº documento de referência</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ZEXT_NUMBER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nº externo da folha de registro de serviços</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ZSHORT_TEXT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Texto breve da folha de registro de serviços</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ZREL_CODE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Código de liberação para requisição de compra</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MATERIALDOCUMENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nº folha registro de serviços</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MATDOCUMENTYEAR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Exercício de um documento de referência</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ZBAPI_RETURN_PO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Parâmetro de retorno da PO</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ZBAPI_RETURN_FR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Parâmetro de retorno da Folha Registro</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ZBAPI_SRV_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Parâmetro de retorno do Aceite SRV</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Parâmetro de retorno</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZHMS_ESTORNO_ML81N</FUNCNAME>
+     <SHORT_TEXT>Estorno da Folha de Serviço</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>LBLNI</PARAMETER>
+       <TYP>LBLNI</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>LBLNI</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nº folha registro de serviços</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Parâmetro de retorno</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

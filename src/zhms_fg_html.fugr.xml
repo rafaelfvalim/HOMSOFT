@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Grupo Função: HTML</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZHMS_FG_HTMLTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZHMS_FG_HTML</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZHMS_FM_GET_HTML_DATAENTRY</FUNCNAME>
+     <SHORT_TEXT>HomSoft: Viewer: Obtendo HTML de Documentos</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>SRSCD</PARAMETER>
+       <DBSTRUCT>ZHMS_ST_HTML_SRSCD</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>DATASRC</PARAMETER>
+       <DBSTRUCT>ZHMS_ST_HTML_SRSCD</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>SRSCD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Código Fonte HTML</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DATASRC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>HomSoft: Viewer: Estrutura de Fonte HTML</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Erro Geral</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZHMS_FM_GET_HTML_DET</FUNCNAME>
+     <SHORT_TEXT>HomSoft: Viewer: Obtendo HTML de Documentos</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>NOBAR</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>FLAG</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>SRSCD</PARAMETER>
+       <DBSTRUCT>ZHMS_ST_HTML_SRSCD</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>DATASRC</PARAMETER>
+       <DBSTRUCT>ZHMS_ST_HTML_SRSCD</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>NOBAR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Barra de conteúdo</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>SRSCD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Código Fonte HTML</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DATASRC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>HomSoft: Viewer: Estrutura de Fonte HTML</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Erro Geral</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZHMS_FM_GET_HTML_DOCS</FUNCNAME>
+     <SHORT_TEXT>HomSoft: Viewer: Obtendo HTML de Documentos</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>PARAM</PARAMETER>
+       <DBSTRUCT>ZHMS_ST_HTML_PARAM</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>DOCST</PARAMETER>
+       <DBSTRUCT>ZHMS_TB_DOCST</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>DOCRF</PARAMETER>
+       <DBSTRUCT>ZHMS_ES_DOCRF</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>SRSCD</PARAMETER>
+       <DBSTRUCT>ZHMS_ST_HTML_SRSCD</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>PARAM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Parâmetros de Entrada</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DOCST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Status de Documentos</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DOCRF</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Documentos Referenciados</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>SRSCD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Código Fonte HTML</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Erro Geral</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZHMS_FM_GET_HTML_HOME</FUNCNAME>
+     <SHORT_TEXT>HomSoft: Viewer: Obtendo HTML de Documentos</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>SRSCD</PARAMETER>
+       <DBSTRUCT>ZHMS_ST_HTML_SRSCD</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>SRSCD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Código Fonte HTML</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Erro Geral</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZHMS_FM_GET_HTML_HOME_NDD</FUNCNAME>
+     <SHORT_TEXT>HomSoft: Viewer: Obtendo HTML de Documentos</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>SRSCD</PARAMETER>
+       <DBSTRUCT>ZHMS_ST_HTML_SRSCD</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>SRSCD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Código Fonte HTML</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Erro Geral</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZHMS_FM_GET_HTML_INDEX</FUNCNAME>
+     <SHORT_TEXT>HomSoft: Viewer: Obtendo HTML de Documentos</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>INDEX</PARAMETER>
+       <DBSTRUCT>ZHMS_ST_HTML_INDEX</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>SRSCD</PARAMETER>
+       <DBSTRUCT>ZHMS_ST_HTML_SRSCD</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>INDEX</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Estrutura Índice</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>SRSCD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Código Fonte HTML</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Erro Geral</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZHMS_FM_GET_HTML_RECP</FUNCNAME>
+     <SHORT_TEXT>HomSoft: Viewer: Obtendo HTML de Documentos</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>SRSCD</PARAMETER>
+       <DBSTRUCT>ZHMS_ST_HTML_SRSCD</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>DATASRC</PARAMETER>
+       <DBSTRUCT>ZHMS_ST_HTML_SRSCD</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>SRSCD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Código Fonte HTML</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DATASRC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>HomSoft: Viewer: Estrutura de Fonte HTML</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Erro Geral</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
